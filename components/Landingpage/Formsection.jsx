@@ -67,7 +67,7 @@ export default function FeaturedProductsSection() {
 
               <div>
 
-                <span className="inline-block text-[#ff5a14] font-semibold uppercase tracking-[3px] mb-3">
+                <span className="inline-block text-[#F58220] font-semibold uppercase tracking-[3px] mb-3">
                   Featured Products
                 </span>
 
@@ -75,7 +75,7 @@ export default function FeaturedProductsSection() {
 
                   Engineered For
 
-                  <span className="text-[#ff5a14]">
+                  <span className="text-[#F58220]">
                     {" "}Industrial Excellence
                   </span>
 
@@ -158,7 +158,7 @@ export default function FeaturedProductsSection() {
                         className="w-full h-[300px] object-contain transition-transform duration-700 group-hover:scale-110"
                       />
 
-                      <span className="absolute top-5 left-5 bg-[#ff5a14] text-white text-xs font-semibold uppercase tracking-wider px-4 py-2 rounded-full">
+                      <span className="absolute top-5 left-5 bg-[#F58220] text-white text-xs font-semibold uppercase tracking-wider px-4 py-2 rounded-full">
                         {product.category}
                       </span>
 
@@ -207,7 +207,7 @@ export default function FeaturedProductsSection() {
 
                 Request A
 
-                <span className="block text-[#ff5a14]">
+                <span className="block text-[#F58220]">
                   Free Consultation
                 </span>
 
@@ -247,7 +247,7 @@ export default function FeaturedProductsSection() {
 
                 <button
                   type="submit"
-                  className="w-full h-14 rounded-xl bg-[#ff5a14] hover:bg-[#28367C] text-white font-semibold text-lg transition duration-300"
+                  className="w-full h-14 rounded-xl bg-gradient-to-r from-[#F58220] to-blue-800 hover:bg-[#28367C] text-white font-semibold text-lg transition duration-300"
                 >
                   Send Inquiry
                 </button>
