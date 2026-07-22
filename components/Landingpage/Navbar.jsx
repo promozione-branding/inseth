@@ -4,45 +4,18 @@ import Link from "next/link";
 import { Menu, X, ChevronDown,Phone,Mail,Droplets   } from "lucide-react";
 import { useState } from "react";
 import Image from "next/image";
+import { categories } from "@/Data";
 export default function Navbar() {
   const [mobileMenu, setMobileMenu] = useState(false);
   const [productsOpen, setProductsOpen] = useState(false);
 
 
-const products = [
-  {
-    name: "Centrifugal Pumps",
-    href: "/products/centrifugal-pumps",
-  },
-  {
-    name: "Monoblock Pumps",
-    href: "/products/monoblock-pumps",
-  },
-  {
-    name: "Self Priming Pumps",
-    href: "/products/self-priming-pumps",
-  },
-  {
-    name: "Pressure Booster Pumps",
-    href: "/products/pressure-booster-pumps",
-  },
-  {
-    name: "Submersible Pumps",
-    href: "/products/submersible-pumps",
-  },
-  {
-    name: "Openwell Pumps",
-    href: "/products/openwell-pumps",
-  },
-  {
-    name: "Borewell Pumps",
-    href: "/products/borewell-pumps",
-  },
-  {
-    name: "Electric Motors",
-    href: "/products/electric-motors",
-  },
-];
+const products = categories.flatMap((category) =>
+  category.products.map((product) => ({
+    id: product.id,
+    name: product.name,
+  }))
+);
 
   return (
 
@@ -139,35 +112,35 @@ const products = [
 
     <div className="grid grid-cols-2 gap-8 p-8">
 
-      <div>
+   <div>
 
-        <h3 className="text-xl font-bold mb-6 text-black">
-          Water Pumps
-        </h3>
+  <h3 className="text-xl font-bold mb-6 text-black">
+    Aluminium Series
+  </h3>
 
-        <div className="space-y-4">
+  <div className="space-y-4">
 
-          {products.slice(0, 4).map((item) => (
+    {products.slice(0, Math.ceil(products.length / 2)).map((item) => (
 
-            <Link
-              key={item.name}
-              href={item.href}
-              className="flex items-center gap-3 rounded-xl p-3 hover:bg-[#F58220]/20 transition"
-            >
-              <Droplets
-                size={18}
-                className="text-[#1BA3F7]"
-              />
+      <Link
+        key={item.id}
+        href={`/products/${item.id}`}
+        className="flex items-center gap-3 rounded-xl p-3 hover:bg-[#F58220]/20 transition"
+      >
+        <Droplets
+          size={18}
+          className="text-[#1BA3F7]"
+        />
 
-              <span>{item.name}</span>
+        <span>{item.name}</span>
 
-            </Link>
+      </Link>
 
-          ))}
+    ))}
 
-        </div>
+  </div>
 
-      </div>
+</div>
 
       <div>
 

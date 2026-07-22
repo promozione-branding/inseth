@@ -103,7 +103,7 @@ export default function AboutPreview() {
 
             {/* Features */}
 
-            <div className="grid grid-cols-2 gap-y-5 gap-x-10 mt-10">
+            <div className="grid grid-cols-2 gap-y-5 gap-x-10 mt-5">
 
               {features.map((item) => (
                 <div
@@ -124,7 +124,7 @@ export default function AboutPreview() {
 
             {/* Button */}
 
-            <div className="mt-12">
+            <div className="mt-8">
 
               <button className="group bg-[#08254F] hover:bg-[#F58220] transition-all duration-300 text-white px-8 py-4 rounded-lg font-semibold flex items-center gap-3">
 

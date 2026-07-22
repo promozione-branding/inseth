@@ -16,8 +16,8 @@ export const categories = [
 
 
 {
-  "id": "centrifugal-pumps",
-  "name": "Centrifugal Pumps",
+  "id": "ai-ie2-motor-b3-foot-mounted",
+  "name": "AI IE2 – Motor B3 (Foot Mounted)",
   "metaTitle": "Centrifugal Pumps Manufacturer & Supplier | High Efficiency Water Pumps",
   "metaDescription": "Explore premium quality centrifugal pumps for residential, commercial, industrial and agricultural applications. High efficiency, durable construction and reliable performance.",
 
@@ -146,149 +146,14 @@ export const categories = [
 
   "image": [
     {
-      "src": "/prod1.webp",
+      "src": "/prodtest.png",
       "alt": "Centrifugal Pump"
     }
   ]
 },
 
 
-{
-  "id": "centrifugal-pumps",
-  "name": "Centrifugal Pumps",
-  "metaTitle": "Centrifugal Pumps Manufacturer & Supplier | High Efficiency Water Pumps",
-  "metaDescription": "Explore premium quality centrifugal pumps for residential, commercial, industrial and agricultural applications. High efficiency, durable construction and reliable performance.",
 
-  "description": [
-    {
-      "type": "h2",
-      "text": "Product Overview – Centrifugal Pumps"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Our Centrifugal Pumps are engineered to deliver reliable and efficient water transfer solutions for residential, commercial, industrial, and agricultural applications.",
-        "Designed with precision-balanced impellers and high-efficiency motors, these pumps provide consistent flow rates while minimizing energy consumption.",
-        "Manufactured using premium-grade cast iron and corrosion-resistant components, ensuring long service life even in demanding operating conditions.",
-        "Suitable for clean water pumping, pressure boosting, irrigation systems, water supply networks, cooling systems, and industrial process applications.",
-        "Available in multiple capacities and motor ratings to meet diverse pumping requirements across various industries."
-      ]
-    },
-
-    {
-      "type": "h2",
-      "text": "Product Details"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Pump Type – Horizontal Centrifugal Pump.",
-        "Motor Power – Available from 0.5 HP to 20 HP.",
-        "Flow Rate – Up to 500 LPM (Depending on Model).",
-        "Head Range – Up to 80 Meters.",
-        "Voltage – Single Phase / Three Phase.",
-        "Material – Cast Iron Body with Brass / SS Impeller Options.",
-        "Application – Domestic, Commercial, Industrial & Agricultural Water Transfer."
-      ]
-    },
-
-    {
-      "type": "h2",
-      "text": "Key Features"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "High hydraulic efficiency for reduced power consumption.",
-        "Heavy-duty construction for long operational life.",
-        "Low vibration and quiet operation.",
-        "Precision engineered impeller for maximum water discharge.",
-        "Corrosion-resistant internal components.",
-        "Easy installation and maintenance.",
-        "Leak-proof mechanical seal for reliable performance.",
-        "Suitable for continuous-duty operation."
-      ]
-    },
-
-    {
-      "type": "h2",
-      "text": "Applications"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Residential Water Supply",
-        "Commercial Buildings",
-        "Industrial Water Circulation",
-        "Pressure Booster Systems",
-        "Agricultural Irrigation",
-        "Cooling Towers",
-        "HVAC Systems",
-        "Water Treatment Plants"
-      ]
-    },
-
-    {
-      "type": "h2",
-      "text": "Why Choose Our Centrifugal Pumps?"
-    },
-    {
-      "type": "ul",
-      "items": [
-        "Manufactured using premium quality raw materials.",
-        "Energy-efficient motors for lower electricity costs.",
-        "Excellent flow performance with stable pressure.",
-        "Strict quality testing before dispatch.",
-        "Available in multiple sizes and capacities.",
-        "Fast nationwide delivery.",
-        "Reliable after-sales support and technical assistance.",
-        "Competitive pricing for dealers, OEMs, and bulk buyers."
-      ]
-    }
-  ],
-
-  "specs": [
-    {
-      "label": "Pump Type",
-      "value": "Horizontal Centrifugal"
-    },
-    {
-      "label": "Motor Power",
-      "value": "0.5 HP – 20 HP"
-    },
-    {
-      "label": "Flow Rate",
-      "value": "Up to 500 LPM"
-    },
-    {
-      "label": "Maximum Head",
-      "value": "80 Meters"
-    },
-    {
-      "label": "Voltage",
-      "value": "Single / Three Phase"
-    },
-    {
-      "label": "Pump Body",
-      "value": "Cast Iron"
-    },
-    {
-      "label": "Impeller",
-      "value": "Brass / Stainless Steel"
-    },
-    {
-      "label": "Application",
-      "value": "Water Transfer"
-    }
-  ],
-
-  "image": [
-    {
-      "src": "/prod1.webp",
-      "alt": "Centrifugal Pump"
-    }
-  ]
-}
 
 
 

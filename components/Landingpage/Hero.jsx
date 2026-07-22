@@ -31,7 +31,7 @@ export default function Hero() {
 
     {
       image: "/heroimg.png",
-      title: "Premium Water Pumps",
+      title: "High-Performance Motors for Every Industry",
       subtitle:
         "Delivering unmatched performance, energy efficiency and long-lasting reliability for residential, commercial and industrial applications.",
     },
@@ -104,7 +104,7 @@ className="relative h-[95vh] overflow-hidden bg-cover bg-center"
 
   {/* Premium Badge */}
 
-  <div className="inline-flex items-center gap-3 rounded-full border border-orange-500 bg-cyan-500/10 backdrop-blur-xl px-5 py-2">
+  {/* <div className="inline-flex items-center gap-3 rounded-full border border-orange-500 bg-cyan-500/10 backdrop-blur-xl px-5 py-2">
 
     <span className="w-3 h-3 rounded-full bg-[#F58220] animate-pulse"></span>
 
@@ -112,7 +112,7 @@ className="relative h-[95vh] overflow-hidden bg-cover bg-center"
       India's Trusted Water Pump Manufacturer
     </span>
 
-  </div>
+  </div> */}
 
   {/* Heading */}
 
@@ -129,7 +129,7 @@ className="relative h-[95vh] overflow-hidden bg-cover bg-center"
 
     </h1>
 
-    <p className="mt-8 text-xl leading-9 text-slate-300 max-w-xl">
+    <p className="mt-8 text-xl leading-9 text-white max-w-xl">
 
       {slides[active].subtitle}
 
