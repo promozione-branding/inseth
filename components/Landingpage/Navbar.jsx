@@ -54,12 +54,13 @@ const products = [
 
       <div className="flex items-center gap-2">
         <Phone className="h-4 w-4 text-white" />
-        <span>+91 98765 43210</span>
+        <span>
++91-9873933882</span>
       </div>
 
       <div className="flex items-center gap-2">
         <Mail className="h-4 w-4 text-white" />
-        <span>sales@flowmax.com</span>
+        <span>jmdautomationsystems@gmail.com</span>
       </div>
 
     </div>
@@ -228,7 +229,7 @@ const products = [
         Download Catalogue
       </button>
 
-      <button className="rounded-full bg-gradient-to-r from-blue-800 to-cyan-500 px-7 py-3 font-semibold text-white shadow-lg transition hover:scale-105">
+      <button className="rounded-full bg-gradient-to-r from-[#F58220] to-blue-800 px-7 py-3 font-semibold text-white shadow-lg transition hover:scale-105">
         Get Quote →
       </button>
 

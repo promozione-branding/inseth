@@ -63,7 +63,7 @@ export default function TestimonialSlider() {
 
         <div className="text-center mb-5">
 
-          <span className="uppercase tracking-[5px] text-[#7DD3FC] font-semibold">
+          <span className="uppercase tracking-[5px] text-[#F58220] font-semibold">
             Testimonials
           </span>
 
@@ -91,7 +91,7 @@ export default function TestimonialSlider() {
             >
 
               <Quote
-                className="mx-auto text-[#38BDF8] mb-8"
+                className="mx-auto text-[#F58220] mb-3"
                 size={65}
               />
 
@@ -101,7 +101,7 @@ export default function TestimonialSlider() {
 
             
 
-              <div className="mt-10 text-center">
+              <div className="mt-7 text-center">
 
                 <h3 className="text-2xl font-bold text-white">
                   {current.name}
@@ -121,14 +121,14 @@ export default function TestimonialSlider() {
 
           <button
             onClick={prevSlide}
-            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-8 w-14 h-14 rounded-full bg-white shadow-xl hover:bg-[#38BDF8] hover:text-white transition flex items-center justify-center"
+            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-8 w-14 h-14 rounded-full bg-white shadow-xl hover:bg-[#F58220] hover:text-white transition flex items-center justify-center"
           >
             <ChevronLeft />
           </button>
 
           <button
             onClick={nextSlide}
-            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-8 w-14 h-14 rounded-full bg-white shadow-xl hover:bg-[#38BDF8] hover:text-white transition flex items-center justify-center"
+            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-8 w-14 h-14 rounded-full bg-white shadow-xl hover:bg-[#F58220] hover:text-white transition flex items-center justify-center"
           >
             <ChevronRight />
           </button>
@@ -146,7 +146,7 @@ export default function TestimonialSlider() {
               className={`transition-all duration-300 rounded-full ${
                 index === i
                   ? "w-10 h-3 bg-white"
-                  : "w-3 h-3 bg-blue-300"
+                  : "w-3 h-3 bg-[#F58220]"
               }`}
             />
           ))}

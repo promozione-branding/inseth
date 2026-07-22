@@ -38,7 +38,7 @@ export default function Footer() {
         I.N. SETHS SONS
         </h2>
 
-        <div className="relative max-w-7xl mx-auto px-6 py-10">
+        <div className="relative w-full mx-auto px-17 py-10">
 
           {/* Top Grid */}
 
@@ -89,7 +89,7 @@ export default function Footer() {
 
                 Quick Links
 
-                <span className="absolute left-0 -bottom-3 h-1 w-14 bg-[#41C4FF]" />
+                <span className="absolute left-0 -bottom-3 h-1 w-14 bg-[#F58220]" />
 
               </h3>
 
@@ -143,7 +143,7 @@ export default function Footer() {
 
                 Our Products
 
-                <span className="absolute left-0 -bottom-3 h-1 w-14 bg-[#41C4FF]" />
+                <span className="absolute left-0 -bottom-3 h-1 w-14 bg-[#F58220]" />
 
               </h3>
 
@@ -197,7 +197,7 @@ export default function Footer() {
 
                 Industries
 
-                <span className="absolute left-0 -bottom-3 h-1 w-14 bg-[#41C4FF]" />
+                <span className="absolute left-0 -bottom-3 h-1 w-14 bg-[#F58220]" />
 
               </h3>
 
@@ -231,13 +231,13 @@ export default function Footer() {
 
 <div className=" border-t border-white/10 mt-4">
 
-  <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
+  <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-5">
 
     {/* Phone */}
 
-    <div className="flex items-center gap-5 bg-white/5 rounded-2xl p-6 hover:bg-white/10 transition">
+    <div className="flex items-center gap-5 bg-white/5 rounded-2xl p-3 hover:bg-white/10 transition">
 
-      <div className="w-16 h-16 rounded-xl bg-[#41C4FF] flex items-center justify-center text-[#062B57] text-2xl">
+      <div className="w-16 h-16 rounded-xl  flex items-center justify-center text-white text-2xl">
         <FaPhoneAlt />
       </div>
 
@@ -246,12 +246,11 @@ export default function Footer() {
           Call Us
         </h4>
 
-        <p className="text-gray-300">
-          +91 98765 43210
-        </p>
+   
 
         <p className="text-gray-300">
-          +91 91234 56789
+      
++91-9873933882
         </p>
       </div>
 
@@ -259,9 +258,9 @@ export default function Footer() {
 
     {/* Email */}
 
-    <div className="flex items-center gap-5 bg-white/5 rounded-2xl p-6 hover:bg-white/10 transition">
+    <div className="flex items-center gap-5 bg-white/5 rounded-2xl p-3 hover:bg-white/10 transition">
 
-      <div className="w-16 h-16 rounded-xl bg-[#41C4FF] flex items-center justify-center text-[#062B57] text-2xl">
+      <div className="w-16 h-16 rounded-xl  flex items-center justify-center text-white text-2xl">
         <FaEnvelope />
       </div>
 
@@ -271,21 +270,18 @@ export default function Footer() {
         </h4>
 
         <p className="text-gray-300">
-          info@yourcompany.com
+       jmdautomationsystems@gmail.com
         </p>
 
-        <p className="text-gray-300">
-          sales@yourcompany.com
-        </p>
       </div>
 
     </div>
 
     {/* Address */}
 
-    <div className="flex items-center gap-5 bg-white/5 rounded-2xl p-6 hover:bg-white/10 transition">
+    <div className="flex items-center gap-5 bg-white/5 rounded-2xl p-3 hover:bg-white/10 transition">
 
-      <div className="w-16 h-16 rounded-xl bg-[#41C4FF] flex items-center justify-center text-[#062B57] text-2xl">
+      <div className="w-16 h-16 rounded-xl  flex items-center justify-center text-white text-2xl">
         <FaMapMarkerAlt />
       </div>
 
@@ -295,10 +291,7 @@ export default function Footer() {
         </h4>
 
         <p className="text-gray-300 leading-6">
-          Plot No. 101,
-          Industrial Area,
-          Ahmedabad,
-          Gujarat.
+         Address: M-145, Street No. 9, Behind Inderlok Metro Station Gate No. 2 Shastri Nagar, Delhi-110052
         </p>
       </div>
 
@@ -323,7 +316,7 @@ export default function Footer() {
           <a
             key={i}
             href="#"
-            className="w-12 h-12 rounded-full bg-white/10 hover:bg-[#41C4FF] hover:text-[#062B57] transition-all duration-300 flex items-center justify-center text-lg"
+            className="w-12 h-12 rounded-full bg-white/10 hover:bg-[#F58220] hover:text-[#062B57] transition-all duration-300 flex items-center justify-center text-lg"
           >
             {icon}
           </a>
@@ -382,8 +375,7 @@ export default function Footer() {
             <div className="flex flex-col lg:flex-row items-center justify-between gap-5">
 
               <p className="text-gray-300 text-center lg:text-left">
-                © {new Date().getFullYear()} Your Company Name.
-                All Rights Reserved.
+                © {new Date().getFullYear()} Copyright © 2026 I.N. Seth Sons. All Right Reserved.
               </p>
 
               <div className="flex flex-wrap items-center justify-center gap-6 text-gray-300">
@@ -392,22 +384,10 @@ export default function Footer() {
                   href="/privacy-policy"
                   className="hover:text-[#41C4FF] transition"
                 >
-                  Privacy Policy
+               Website Designed By Inquiry Bazaar Pvt. Ltd.  B2B Marketplace
                 </Link>
 
-                <Link
-                  href="/terms-and-conditions"
-                  className="hover:text-[#41C4FF] transition"
-                >
-                  Terms & Conditions
-                </Link>
-
-                <Link
-                  href="/sitemap"
-                  className="hover:text-[#41C4FF] transition"
-                >
-                  Sitemap
-                </Link>
+               
 
               </div>
 

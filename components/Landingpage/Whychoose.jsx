@@ -51,7 +51,7 @@ export default function WhyChooseUs() {
 
           <div>
 
-            <span className="uppercase tracking-[4px] text-[#ED3A20] font-semibold">
+            <span className="uppercase tracking-[4px] text-[#F58220] font-semibold">
               WHY CHOOSE US
             </span>
 
@@ -59,7 +59,7 @@ export default function WhyChooseUs() {
               Trusted Industrial
               <br />
               Power Transmission
-              <span className="text-[#ED3A20]"> Solutions</span>
+              <span className="text-[#F58220]"> Solutions</span>
             </h2>
 
             <p className="mt-2 text-lg text-gray-600 leading-8">
@@ -121,7 +121,7 @@ export default function WhyChooseUs() {
                   key={item}
                   className="flex items-center gap-3"
                 >
-                  <FiCheckCircle className="text-[#ED3A20] text-xl" />
+                  <FiCheckCircle className="text-[#F58220] text-xl" />
 
                   <span className="font-medium text-[#08254F]">
                     {item}
@@ -162,7 +162,7 @@ export default function WhyChooseUs() {
 
             {/* Floating Experience Card */}
 
-            <div className="absolute bottom-8 -right-8 bg-[#ED3A20] text-white rounded-2xl shadow-2xl px-8 py-7">
+            <div className="absolute bottom-8 -right-8 bg-[#F58220] text-white rounded-2xl shadow-2xl px-8 py-7">
 
               <h2 className="text-5xl font-black">25+</h2>
 
