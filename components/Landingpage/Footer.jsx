@@ -53,9 +53,9 @@ export default function Footer() {
             <div className="lg:col-span-2">
 
               <Image
-                src="/logo.webp"
+                src="/logo2.jpeg"
                 alt="Logo"
-                width={290}
+                width={320}
                 height={170}
                 className="mb-6 bg-white rounded-sm"
               />

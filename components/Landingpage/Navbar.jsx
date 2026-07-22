@@ -60,7 +60,7 @@ const products = categories.flatMap((category) =>
 
     <Link href="/" className="flex items-center gap-4">
 
-   <Image width={300} height={300} src="/logo.webp">
+   <Image width={300} height={300} src="/logo2.jpeg">
 
 
    </Image>
