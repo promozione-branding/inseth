@@ -90,9 +90,9 @@ className="relative h-[95vh] overflow-hidden bg-cover bg-center"
 
 {/* Rotating Rings */}
 
-<div className="absolute right-20 top-1/2 -translate-y-1/2 w-[650px] h-[650px] rounded-full border border-cyan-400/20 animate-spin [animation-duration:40s]" />
+<div className="absolute right-20 top-1/2 -translate-y-1/2 w-[650px] h-[650px] rounded-full border border-orange-500/60 animate-spin [animation-duration:40s]" />
 
-<div className="absolute right-40 top-1/2 -translate-y-1/2 w-[520px] h-[520px] rounded-full border border-white/10 animate-spin [animation-duration:30s] [animation-direction:reverse]" />
+<div className="absolute right-40 top-1/2 -translate-y-1/2 w-[520px] h-[520px] rounded-full border border-white/30 animate-spin [animation-duration:30s] [animation-direction:reverse]" />
 
 <div className="relative z-20 max-w-7xl mx-auto px-6 min-h-screen flex items-center">
 
@@ -318,7 +318,7 @@ className="relative h-[95vh] overflow-hidden bg-cover bg-center"
 
       <div className="flex items-center gap-3">
 
-        <BsGear className="text-3xl text-[#F58220] animate-spin" />
+        <BsGear className="text-3xl text-[#F58220] " />
 
         <div>
 

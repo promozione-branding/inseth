@@ -35,7 +35,7 @@ export default function Footer() {
         {/* Watermark */}
 
         <h2 className="absolute inset-0  top-0 flex items-center justify-center text-[120px] font-black text-white/5 select-none hidden xl:flex">
-        I.N. SETHS SONS
+        I.N. SETH SONS
         </h2>
 
         <div className="relative w-full mx-auto px-17 py-10">
