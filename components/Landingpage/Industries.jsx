@@ -68,9 +68,9 @@ export default function IndustriesSection() {
             Industries We Serve
           </span>
 
-          <h2 className="mt-4 text-5xl font-black text-[#08254F]">
+          <h2 className="mt-4 text-5xl font-black text-[#072F55]">
             Delivering Solutions Across
-            <span className="text-[#F58220]"> Every Industry</span>
+            <span className="text-[#004DCB]"> Every Industry</span>
           </h2>
 
           <p className="mt-6 max-w-3xl mx-auto text-gray-600 text-lg leading-8">
@@ -122,7 +122,7 @@ export default function IndustriesSection() {
 
                 <div className="absolute bottom-8 left-8 right-8">
 
-                  <div className="w-16 h-16 rounded-xl bg-[#F58220] text-white flex items-center justify-center text-3xl mb-6 group-hover:rotate-12 transition">
+                  <div className="w-16 h-16 rounded-xl bg-[#004DCB] text-white flex items-center justify-center text-3xl mb-6 group-hover:rotate-12 transition">
                     {item.icon}
                   </div>
 

@@ -71,11 +71,11 @@ export default function ProductSection() {
             Our Product Range
           </span>
 
-          <h2 className="mt-2 text-4xl font-bold text-slate-900">
+          <h2 className="mt-2 text-4xl font-bold text-[#072F55]">
             High Quality Products for Every Application
           </h2>
 
-          <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-orange-500" />
+          <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-[#004DCB]" />
         </div>
 
         {/* Cards */}
@@ -83,7 +83,7 @@ export default function ProductSection() {
           {products.map((product) => (
             <div
               key={product.title}
-              className="group rounded-xl border border-gray-200 bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:border-orange-400 hover:shadow-xl"
+              className="group rounded-xl border border-gray-200 bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[#004DCB] hover:shadow-xl"
             >
               <div className="flex h-40 items-center justify-center">
                 <Image

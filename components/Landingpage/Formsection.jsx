@@ -71,11 +71,11 @@ export default function FeaturedProductsSection() {
                   Featured Products
                 </span>
 
-                <h2 className="text-4xl  font-extrabold leading-tight text-[#28367C] max-w-3xl">
+                <h2 className="text-4xl  font-extrabold leading-tight text-[#072F55] max-w-3xl">
 
                   Engineered For
 
-                  <span className="text-[#F58220]">
+                  <span className="text-[#004DCB]">
                     {" "}Industrial Excellence
                   </span>
 
@@ -158,7 +158,7 @@ export default function FeaturedProductsSection() {
                         className="w-full h-[300px] object-contain transition-transform duration-700 group-hover:scale-110"
                       />
 
-                      <span className="absolute top-5 left-5 bg-[#F58220] text-white text-xs font-semibold uppercase tracking-wider px-4 py-2 rounded-full">
+                      <span className="absolute top-5 left-5 bg-[#004DCB] text-white text-xs font-semibold uppercase tracking-wider px-4 py-2 rounded-full">
                         {product.category}
                       </span>
 
@@ -203,11 +203,11 @@ export default function FeaturedProductsSection() {
             <div className="bg-white rounded-3xl shadow-2xl p-5 sticky top-14">
 
 
-              <h3 className="text-3xl font-bold text-[#28367C] leading-tight mt-3">
+              <h3 className="text-3xl font-bold text-[#072F55] leading-tight mt-3">
 
                 Request A
 
-                <span className="block text-[#F58220]">
+                <span className="block text-[#004DCB]">
                   Free Consultation
                 </span>
 

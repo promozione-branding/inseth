@@ -46,12 +46,12 @@ export default function SustainabilityStrip() {
                     : ""
                 }`}
               >
-                <div className="flex h-16 w-16 items-center justify-center rounded-full bg-orange-100 text-2xl text-[#ff8c1a]">
+                <div className="flex h-16 w-16 items-center justify-center rounded-full bg-orange-100 text-2xl text-[#004DCB]">
                   {item.icon}
                 </div>
 
                 <div>
-                  <h3 className="text-2xl font-bold text-[#ff8c1a]">
+                  <h3 className="text-2xl font-bold text-[#004DCB]">
                     {item.number}
                   </h3>
 

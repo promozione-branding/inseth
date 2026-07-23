@@ -179,7 +179,7 @@ export default function ProductPage({ params }) {
 
                         <div className="rounded-3xl overflow-hidden bg-white border border-slate-200 shadow-2xl">
 
-              <div className="bg-gradient-to-r from-[#062B57] to-[#F58220] px-8 py-6">
+              <div className="bg-gradient-to-r from-[#F58220] to-blue-800 px-8 py-6">
 
                 <h2 className="text-3xl font-bold text-white">
                   Product Specifications
@@ -370,7 +370,7 @@ export default function ProductPage({ params }) {
 
           {/* Header */}
 
-          <div className="bg-gradient-to-r from-[#062B57] to-[#F58220] p-5 text-white">
+          <div className="bg-gradient-to-r from-[#F58220] to-blue-800 p-5 text-white">
 
             <h3 className="text-3xl font-bold">
               Quick Inquiry
@@ -420,7 +420,7 @@ export default function ProductPage({ params }) {
 
             <button
               type="submit"
-              className="w-full h-14 rounded-xl bg-gradient-to-r from-[#062B57] to-[#F58220] text-white font-semibold text-lg hover:scale-[1.02] transition"
+              className="w-full h-14 rounded-xl bg-gradient-to-r from-[#F58220] to-blue-800 text-white font-semibold text-lg hover:scale-[1.02] transition"
             >
               Send Inquiry
             </button>

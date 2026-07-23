@@ -59,7 +59,7 @@ export default function WhyChooseUs() {
               Trusted Industrial
               <br />
               Power Transmission
-              <span className="text-[#F58220]"> Solutions</span>
+              <span className="text-[#004DCB]"> Solutions</span>
             </h2>
 
             <p className="mt-2 text-lg text-gray-600 leading-8">
@@ -131,7 +131,7 @@ export default function WhyChooseUs() {
 
             </div>
 
-            <button className="mt-10 bg-[#08254F] hover:bg-[#ED3A20] transition-all duration-300 text-white px-10 py-4 rounded-lg font-semibold">
+            <button className="mt-10 bg-gradient-to-r from-[#F58220] to-blue-800 transition-all duration-300 text-white px-10 py-4 rounded-lg font-semibold">
               Get Free Consultation
             </button>
 
