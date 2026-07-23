@@ -121,7 +121,7 @@ export default function WhyChooseUs() {
                   key={item}
                   className="flex items-center gap-3"
                 >
-                  <FiCheckCircle className="text-[#F58220] text-xl" />
+                  <FiCheckCircle className="text-[#004DCB] text-xl" />
 
                   <span className="font-medium text-[#08254F]">
                     {item}

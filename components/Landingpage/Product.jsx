@@ -103,7 +103,7 @@ export default function ProductSection() {
                 {product.description}
               </p>
 
-              <div className="mt-5 inline-flex items-center gap-2 text-orange-500 font-medium">
+              <div className="mt-5 inline-flex items-center gap-2 text-[#0069CB] font-medium">
                 Learn More
                 <ArrowRight
                   size={18}

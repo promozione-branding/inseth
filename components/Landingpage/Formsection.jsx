@@ -176,7 +176,7 @@ export default function FeaturedProductsSection() {
                         {product.description}
                       </p>
 
-                      <button className="mt-4 inline-flex items-center gap-2 text-[#ff5a14] font-semibold hover:gap-4 transition-all duration-300">
+                      <button className="mt-4 inline-flex items-center gap-2 text-[#004DCB] font-semibold hover:gap-4 transition-all duration-300">
 
                         View Product
 
