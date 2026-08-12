@@ -49,7 +49,7 @@ export default function Footer() {
 
             <div className="lg:col-span-2">
               <Image
-                src="/logo2.jpeg"
+                src="/logo.png"
                 alt="Logo"
                 width={320}
                 height={170}
