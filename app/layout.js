@@ -2,7 +2,6 @@ import { Roboto, Poppins } from "next/font/google";
 import "./globals.css";
 import LayoutWrapper from "@/components/LayoutWrapper";
 
-
 import Whatsapp from "@/components/Whatsapp";
 
 // Roboto
@@ -21,9 +20,8 @@ const poppins = Poppins({
 
 export const metadata = {
   title: " inseth",
-  description:
-    "inseth.",
-   icons: {
+  description: "inseth.",
+  icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
     apple: "/favicon.ico",
@@ -32,27 +30,17 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-
-
     <html lang="en">
-
-
-<head>
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-
-</head>
-
-
-  
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+          rel="stylesheet"
+        />
+      </head>
 
       <body className={`${roboto.variable} ${poppins.variable} antialiased`}>
-     
-    <Whatsapp/>
-        <LayoutWrapper>
-        
-      
-          {children}
-        </LayoutWrapper>
+        <Whatsapp />
+        <LayoutWrapper>{children}</LayoutWrapper>
       </body>
     </html>
   );

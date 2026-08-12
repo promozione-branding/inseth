@@ -59,7 +59,7 @@ export default function WhyChooseUs() {
               Trusted Industrial
               <br />
               Power Transmission
-              <span className="text-[#004DCB]"> Solutions</span>
+              <span className="text-[#00c3fd]"> Solutions</span>
             </h2>
 
             <p className="mt-2 text-lg text-gray-600 leading-8">
@@ -121,7 +121,7 @@ export default function WhyChooseUs() {
                   key={item}
                   className="flex items-center gap-3"
                 >
-                  <FiCheckCircle className="text-[#004DCB] text-xl" />
+                  <FiCheckCircle className="text-[#00c3fd] text-xl" />
 
                   <span className="font-medium text-[#08254F]">
                     {item}
@@ -131,7 +131,7 @@ export default function WhyChooseUs() {
 
             </div>
 
-            <button className="mt-10 bg-gradient-to-r from-[#F58220] to-blue-800 transition-all duration-300 text-white px-10 py-4 rounded-lg font-semibold">
+            <button className="mt-10 bg-[#F58220] transition-all duration-300 text-white px-10 py-4 rounded-lg font-semibold">
               Get Free Consultation
             </button>
 

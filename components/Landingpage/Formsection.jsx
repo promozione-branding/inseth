@@ -75,7 +75,7 @@ export default function FeaturedProductsSection() {
 
                   Engineered For
 
-                  <span className="text-[#004DCB]">
+                  <span className="text-[#00c3fd]">
                     {" "}Industrial Excellence
                   </span>
 
@@ -207,7 +207,7 @@ export default function FeaturedProductsSection() {
 
                 Request A
 
-                <span className="block text-[#004DCB]">
+                <span className="block text-[#00c3fd]">
                   Free Consultation
                 </span>
 
@@ -247,7 +247,7 @@ export default function FeaturedProductsSection() {
 
                 <button
                   type="submit"
-                  className="w-full h-14 rounded-xl bg-gradient-to-r from-[#F58220] to-blue-800 hover:bg-[#28367C] text-white font-semibold text-lg transition duration-300"
+                  className="w-full h-14 rounded-xl bg-[#00c3fd] hover:bg-[#28367C] text-white font-semibold text-lg transition duration-300"
                 >
                   Send Inquiry
                 </button>

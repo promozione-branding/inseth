@@ -70,7 +70,7 @@ export default function IndustriesSection() {
 
           <h2 className="mt-4 text-5xl font-black text-[#072F55]">
             Delivering Solutions Across
-            <span className="text-[#004DCB]"> Every Industry</span>
+            <span className="text-[#00c3fd]"> Every Industry</span>
           </h2>
 
           <p className="mt-6 max-w-3xl mx-auto text-gray-600 text-lg leading-8">
@@ -89,9 +89,7 @@ export default function IndustriesSection() {
             delay: 3000,
             disableOnInteraction: false,
           }}
-          pagination={{
-            clickable: true,
-          }}
+         
           breakpoints={{
             0: {
               slidesPerView: 1.2,
@@ -122,7 +120,7 @@ export default function IndustriesSection() {
 
                 <div className="absolute bottom-8 left-8 right-8">
 
-                  <div className="w-16 h-16 rounded-xl bg-[#004DCB] text-white flex items-center justify-center text-3xl mb-6 group-hover:rotate-12 transition">
+                  <div className="w-16 h-16 rounded-xl bg-[#00c3fd] text-white flex items-center justify-center text-3xl mb-6 group-hover:rotate-12 transition">
                     {item.icon}
                   </div>
 
