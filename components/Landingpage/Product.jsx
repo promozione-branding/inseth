@@ -83,7 +83,7 @@ export default function ProductSection() {
           {products.map((product) => (
             <div
               key={product.title}
-              className="group rounded-xl border border-gray-200 bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[#004DCB] hover:shadow-xl"
+              className="group  border border-gray-200 bg-white p-6 transition-all duration-300 hover:-translate-y-1 hover:border-[#004DCB] hover:shadow-xl"
             >
               <div className="flex h-40 items-center justify-center">
                 <Image
@@ -99,7 +99,7 @@ export default function ProductSection() {
                 {product.title}
               </h3>
 
-              <p className="mt-3 text-sm leading-7 text-slate-600">
+              <p className="mt-3 text-sm leading-6 text-slate-600">
                 {product.description}
               </p>
 

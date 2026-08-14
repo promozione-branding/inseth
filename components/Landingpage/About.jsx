@@ -73,7 +73,7 @@ export default function AboutPreview() {
               About AD Motorincs
             </span>
 
-            <h2 className="text-5xl font-black text-[#072F55] leading-tight">
+            <h2 className="text-5xl font-black text-black leading-tight">
               Powering Industries
               <br />
               With Quality &<span className="text-[#00c3fd]"> Reliability</span>
@@ -92,7 +92,7 @@ export default function AboutPreview() {
             <div className="grid grid-cols-2 gap-y-5 gap-x-10 mt-5">
               {features.map((item) => (
                 <div key={item} className="flex items-center gap-3">
-                  <div className="w-7 h-7 rounded-lg bg-[#00c3fd] flex items-center justify-center text-white flex-shrink-0">
+                  <div className="w-7 h-7  bg-[#00c3fd] flex items-center justify-center text-white flex-shrink-0">
                     <FiCheckSquare size={16} />
                   </div>
 
@@ -104,7 +104,7 @@ export default function AboutPreview() {
             {/* Button */}
 
             <div className="mt-8">
-              <button className="group bg-[#F58220]  transition-all duration-300 text-white px-8 py-4 rounded-lg font-semibold flex items-center gap-3 hover:scale-105">
+              <button className="group bg-[#F58220]  transition-all duration-300 text-white px-8 py-4  font-semibold flex items-center gap-3 hover:scale-105">
                 KNOW MORE ABOUT US
                 <FiArrowRight className="group-hover:translate-x-1 transition" />
               </button>

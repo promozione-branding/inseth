@@ -37,25 +37,15 @@ export default function WhyChooseUs() {
   return (
     <section className="relative py-12 bg-gradient-to-b from-orange-50 to-[#f7f9fc] overflow-hidden">
       <div className="w-full mx-auto px-16">
-
         <div className="grid lg:grid-cols-2 gap-20 ">
-
-
-
-
-
-
-
-
-   {/* RIGHT */}
+          {/* RIGHT */}
 
           <div>
-
             <span className="uppercase tracking-[4px] text-[#F58220] font-semibold">
               WHY CHOOSE US
             </span>
 
-            <h2 className="mt-2 text-4xl font-black leading-tight text-[#08254F]">
+            <h2 className="mt-2 text-4xl font-black leading-tight text-black">
               Trusted Industrial
               <br />
               Power Transmission
@@ -63,18 +53,17 @@ export default function WhyChooseUs() {
             </h2>
 
             <p className="mt-2 text-lg text-gray-600 leading-8">
-              We provide high-performance industrial motors, gearboxes,
-              geared motors and power transmission products backed by
-              technical expertise, competitive pricing and dependable
-              after-sales support. We provide high-performance industrial motors, gearboxes,
-              geared motors and power transmission products backed by
-              technical expertise, competitive pricing and dependable
-              after-sales support. We provide high-performance industrial motors, gearboxes,
-              geared motors and power transmission products backed by
-              technical expertise, competitive pricing and dependable
-              after-sales support. We provide high-performance industrial motors, gearboxes,
-              geared motors and power transmission products backed by
-              technical 
+              We provide high-performance industrial motors, gearboxes, geared
+              motors and power transmission products backed by technical
+              expertise, competitive pricing and dependable after-sales support.
+              We provide high-performance industrial motors, gearboxes, geared
+              motors and power transmission products backed by technical
+              expertise, competitive pricing and dependable after-sales support.
+              We provide high-performance industrial motors, gearboxes, geared
+              motors and power transmission products backed by technical
+              expertise, competitive pricing and dependable after-sales support.
+              We provide high-performance industrial motors, gearboxes, geared
+              motors and power transmission products backed by technical
             </p>
 
             {/* Features */}
@@ -108,7 +97,6 @@ export default function WhyChooseUs() {
             {/* Checklist */}
 
             <div className="grid sm:grid-cols-2 gap-4 mt-7">
-
               {[
                 "100% Genuine Products",
                 "Competitive Pricing",
@@ -117,39 +105,25 @@ export default function WhyChooseUs() {
                 "Expert Consultation",
                 "After Sales Support",
               ].map((item) => (
-                <div
-                  key={item}
-                  className="flex items-center gap-3"
-                >
+                <div key={item} className="flex items-center gap-3">
                   <FiCheckCircle className="text-[#00c3fd] text-xl" />
 
-                  <span className="font-medium text-[#08254F]">
-                    {item}
-                  </span>
+                  <span className="font-medium text-[#08254F]">{item}</span>
                 </div>
               ))}
-
             </div>
 
-            <button className="mt-10 bg-[#F58220] transition-all duration-300 text-white px-10 py-4 rounded-lg font-semibold">
+            <button className="mt-10 bg-[#F58220] transition-all duration-300 text-white px-10 py-4  font-semibold">
               Get Free Consultation
             </button>
-
           </div>
-
-
-
-
-
 
           {/* LEFT */}
 
           <div className="relative">
-
             <div className="absolute -left-8 -top-8 w-40 h-40 rounded-full bg-[#ED3A20]/10 blur-3xl"></div>
 
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
-
               <Image
                 src="/test.jpeg"
                 alt="Industrial Motors"
@@ -157,13 +131,11 @@ export default function WhyChooseUs() {
                 height={700}
                 className="w-full h-[620px] object-cover"
               />
-
             </div>
 
             {/* Floating Experience Card */}
 
             <div className="absolute bottom-8 -right-8 bg-[#F58220] text-white rounded-2xl shadow-2xl px-8 py-7">
-
               <h2 className="text-5xl font-black">25+</h2>
 
               <p className="mt-2 font-medium">
@@ -171,15 +143,9 @@ export default function WhyChooseUs() {
                 <br />
                 Industry Experience
               </p>
-
             </div>
-
           </div>
-
-       
-
         </div>
-
       </div>
     </section>
   );

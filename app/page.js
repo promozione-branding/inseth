@@ -17,20 +17,19 @@ import Loactions from "@/components/Locations";
 import ProductSection from "@/components/Landingpage/Product";
 import IndustriesSection from "@/components/Landingpage/Industries";
 
-
 export default function Home() {
   return (
     <>
       {/* <Popup></Popup> */}
       <Hero />
-<Countup />
-   
-        <Formsection></Formsection>
- <ProductSection/>
+      <Countup />
+
+      <Formsection></Formsection>
+      <ProductSection />
       <About />
-      <IndustriesSection/>
-       
-          <Cta></Cta>
+      <IndustriesSection />
+
+      <Cta></Cta>
       {/* <Pointer></Pointer>
       <Categories />
      
@@ -43,7 +42,7 @@ export default function Home() {
       <Whychoose />
 
       <TestimonialSlider></TestimonialSlider>
-      <Faq></Faq> 
+      <Faq></Faq>
       {/* <Loactions />
 
       {/* <CityPage /> */}

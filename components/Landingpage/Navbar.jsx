@@ -42,12 +42,18 @@ export default function Navbar() {
         </div>
       </div>
 
-      <header className="sticky top-0 z-50 py-1 bg-white/80 backdrop-blur-2xl">
-        <nav className="mx-auto mt-1 flex h-22 w-full items-center justify-between rounded-2xl border border-slate-200/70 bg-white/90 px-12 ">
+      <header className="sticky top-0 px-2 pb-2 z-50 py-1 bg-white/30 backdrop-blur-2xl">
+        <nav className="mx-auto mt-1   flex h-22 w-full items-center justify-between rounded-2xl border border-slate-200/70 bg-white/90 px-8 ">
           {/* Logo */}
 
           <Link href="/" className="flex items-center gap-4 ">
-            <Image width={100} height={100} className="h-25 w-55 " src="/logo.png"></Image>
+            <Image
+              width={100}
+              height={100}
+              alt="ad"
+              className="h-25 w-55 "
+              src="/logo.png"
+            ></Image>
           </Link>
 
           {/* Links */}
@@ -147,7 +153,7 @@ export default function Navbar() {
               Download Catalogue
             </button>
 
-            <button className="rounded-full bg-gradient-to-r from-[#F58220] to-blue-800 px-7 py-3 font-semibold text-white shadow-lg transition hover:scale-105">
+            <button className="rounded-full bg-[#F58220]  px-7 py-3 font-semibold text-white shadow-lg transition hover:scale-105">
               Get Quote →
             </button>
           </div>

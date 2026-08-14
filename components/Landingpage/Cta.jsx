@@ -51,7 +51,7 @@ export default function CTASection() {
 
             <div className="mt-14">
 
-              <button className="bg-gradient-to-r from-[#F58220] to-blue-800 transition-all duration-300 text-white font-semibold text-lg px-12 py-5 rounded-md shadow-2xl hover:scale-105">
+              <button className="bg-[#F58220] transition-all duration-300 text-white font-semibold text-lg px-12 py-5  shadow-2xl hover:scale-105">
 
                 Get a Quote
 

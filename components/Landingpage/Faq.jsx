@@ -92,14 +92,14 @@ export default function FAQ() {
                     <div
                       className={`w-12 h-12 rounded-xl flex items-center justify-center font-bold transition ${
                         open
-                          ? "bg-[#F58220] text-white"
+                          ? "bg-[#F58220] text-xl transition-all duration-150 text-white"
                           : "bg-blue-100 text-[#F58220]"
                       }`}
                     >
                       {index + 1}
                     </div>
 
-                    <h3 className="text-xl font-semibold text-[#062B57]">
+                    <h3 className="text-xl font-semibold text-black">
 
                       {faq.q}
 
@@ -124,7 +124,7 @@ export default function FAQ() {
 
                   <div className="px-8 pb-8 pl-[92px]">
 
-                    <p className="text-gray-600 leading-8">
+                    <p className="text-gray-600 ">
 
                       {faq.a}
 

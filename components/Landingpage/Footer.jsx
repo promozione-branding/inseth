@@ -41,19 +41,13 @@ export default function Footer() {
           {/* Top Grid */}
 
           <div className="grid lg:grid-cols-5 md:grid-cols-2 gap-10">
-            {/* ========================= */}
-
-            {/* Company */}
-
-            {/* ========================= */}
-
             <div className="lg:col-span-2">
               <Image
                 src="/logo.png"
                 alt="Logo"
                 width={320}
                 height={170}
-                className="mb-6 bg-white rounded-sm"
+                className="mb-6  rounded-sm"
               />
 
               <p className="text-gray-300 leading-8 text-[15px]">

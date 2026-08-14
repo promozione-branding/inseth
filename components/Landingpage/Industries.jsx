@@ -68,12 +68,12 @@ export default function IndustriesSection() {
             Industries We Serve
           </span>
 
-          <h2 className="mt-4 text-5xl font-black text-[#072F55]">
+          <h2 className="mt-4 text-5xl font-black text-black">
             Delivering Solutions Across
             <span className="text-[#00c3fd]"> Every Industry</span>
           </h2>
 
-          <p className="mt-6 max-w-3xl mx-auto text-gray-600 text-lg leading-8">
+          <p className="mt-6 max-w-3xl mx-auto text-gray-600 text-lg ">
             Our motors, gearboxes and power transmission products are trusted
             by industries across India for unmatched efficiency,
             reliability and long service life.

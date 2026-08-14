@@ -71,7 +71,7 @@ export default function FeaturedProductsSection() {
                   Featured Products
                 </span>
 
-                <h2 className="text-4xl  font-extrabold leading-tight text-[#072F55] max-w-3xl">
+                <h2 className="text-4xl  font-extrabold leading-tight text-black max-w-3xl">
 
                   Engineered For
 
@@ -144,7 +144,7 @@ export default function FeaturedProductsSection() {
 
                   {/* Product Card Starts Here */}
 
-                                    <div className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 h-full flex flex-col">
+                                    <div className="group bg-white  overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 h-full flex flex-col">
 
                     {/* Product Image */}
 
@@ -158,7 +158,7 @@ export default function FeaturedProductsSection() {
                         className="w-full h-[300px] object-contain transition-transform duration-700 group-hover:scale-110"
                       />
 
-                      <span className="absolute top-5 left-5 bg-[#004DCB] text-white text-xs font-semibold uppercase tracking-wider px-4 py-2 rounded-full">
+                      <span className="absolute top-5 left-5 bg-[#F58220] text-white text-xs font-semibold uppercase tracking-wider px-4 py-2 rounded-full">
                         {product.category}
                       </span>
 
@@ -168,11 +168,11 @@ export default function FeaturedProductsSection() {
 
                     <div className="flex flex-col flex-1 p-5">
 
-                      <h3 className="text-3xl font-bold text-[#28367C]">
+                      <h3 className="text-3xl font-bold text-black">
                         {product.title}
                       </h3>
 
-                      <p className="mt-3 text-gray-600 leading-8 flex-1">
+                      <p className="mt-3 text-gray-600  flex-1">
                         {product.description}
                       </p>
 
@@ -203,7 +203,7 @@ export default function FeaturedProductsSection() {
             <div className="bg-white rounded-3xl shadow-2xl p-5 sticky top-14">
 
 
-              <h3 className="text-3xl font-bold text-[#072F55] leading-tight mt-3">
+              <h3 className="text-3xl font-bold text-black leading-tight mt-3">
 
                 Request A
 
