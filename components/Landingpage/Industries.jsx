@@ -69,14 +69,12 @@ export default function IndustriesSection() {
           </span>
 
           <h2 className="mt-4 text-5xl font-black text-black">
-            Delivering Solutions Across
-            <span className="text-[#00c3fd]"> Every Industry</span>
+            Electric Motor Solutions
+            <span className="text-[#00c3fd]"> for Every Industry</span>
           </h2>
 
           <p className="mt-6 max-w-3xl mx-auto text-gray-600 text-lg ">
-            Our motors, gearboxes and power transmission products are trusted
-            by industries across India for unmatched efficiency,
-            reliability and long service life.
+           <strong>AD Motorincs</strong> provides <strong> high-quality electric motors and power transmission solutions</strong> designed for efficient performance, reliable operation, and long service life across diverse industrial applications.
           </p>
 
         </div>

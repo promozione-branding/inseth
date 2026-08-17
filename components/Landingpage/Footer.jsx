@@ -50,13 +50,8 @@ export default function Footer() {
                 className="mb-6  rounded-sm"
               />
 
-              <p className="text-gray-300 leading-8 text-[15px]">
-                We are one of India's trusted suppliers of premium quality Water
-                Pumps, Electric Motors, Pressure Booster Systems, Submersible
-                Pumps and Industrial Pumping Solutions. Our products are
-                engineered for superior performance, durability and energy
-                efficiency across residential, commercial and industrial
-                applications.
+              <p className="text-gray-300  text-[15px]">
+             AD Motorincs is a company that people in India trust to make electric motors. They make motors for factories and other places that need strong motors. AD Motorincs also makes motors, gearboxes and other things that help get power from one place to another. The people, at AD Motorincs design their products to work well and last a long time. They want their electric motors to keep working in homes, offices and factories. AD Motorincs electric motors are made to be efficient and work well every time you use them.
               </p>
 
               <div></div>

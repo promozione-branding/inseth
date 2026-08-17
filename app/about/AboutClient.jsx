@@ -12,7 +12,7 @@ export default function AboutPage() {
       >
         <div className="px-5 absolute inset-0 text-center flex items-center justify-center ">
           <h2 className=" text-black bg-white p-2 text-2xl md:text-6xl font-bold z-10">
-            About Us
+           About AD Motorincs
           </h2>
         </div>
 

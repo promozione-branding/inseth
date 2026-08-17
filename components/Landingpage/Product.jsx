@@ -62,7 +62,7 @@ const products = [
 export default function ProductSection() {
   return (
     <section className="bg-white py-12">
-      <div className="mx-auto w-full px-15 ">
+      <div className="mx-auto max-w-7xl w-full px-15 ">
         {/* Heading */}
 
         <div className="text-center mb-14">
@@ -72,7 +72,7 @@ export default function ProductSection() {
           </span>
 
           <h2 className="mt-2 text-4xl font-bold text-[#072F55]">
-            High Quality Products for Every Application
+           High-Quality Electric Motors for Every Industrial Application
           </h2>
 
           <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-[#004DCB]" />

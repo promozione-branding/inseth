@@ -21,8 +21,8 @@ export default function AboutPreview() {
   const aboutImages = ["/pro1.png", "/pro3.png", "/heroimg.png"];
 
   return (
-    <section className="py-15 relative bg-white">
-      <div className="w-full mx-auto px-16">
+    <section className="py-15  relative bg-white">
+      <div className="w-full max-w-7xl  mx-auto px-16">
         <div className="absolute top-0` left-7">
           <Image
             className="animate-pulse"
@@ -73,18 +73,19 @@ export default function AboutPreview() {
               About AD Motorincs
             </span>
 
-            <h2 className="text-5xl font-black text-black leading-tight">
-              Powering Industries
-              <br />
-              With Quality &<span className="text-[#00c3fd]"> Reliability</span>
+            <h2 className="text-5xl  font-black text-black leading-tight">
+              Leading Electric Motor Manufacturer for
+              <span className="text-[#00c3fd]"> Quality & Reliability</span>
             </h2>
 
-            <p className="mt-5 text-black leading-8 text-lg">
-              AD Motorincs is a trusted supplier of industrial electric motors,
-              gearboxes and power transmission solutions. We deliver
-              high-performance products backed by technical expertise,
-              competitive pricing and reliable after-sales support for
-              industries across India.
+            <p className="mt-5    text-black leading-8 text-lg">
+              <strong>AD Motorincs</strong> is a{" "}
+              <strong> reliable electric motor manufacturer</strong> offering
+              high-quality industrial electric motors, gearboxes, and power
+              transmission solutions. We provide efficient and durable products
+              designed to meet diverse industrial requirements, supported by
+              technical expertise, competitive pricing, and dependable customer
+              service across India.
             </p>
 
             {/* Features */}

@@ -54,59 +54,38 @@ export default function FeaturedProductsSection() {
 
   return (
     <section className="relative bg-[#f7f8fb] py-14 overflow-hidden">
-
-      <div className="w-full mx-auto px-15">
-
+      <div className="w-full  max-w-7xl mx-auto px-15">
         <div className="grid lg:grid-cols-12 gap-14 items-start">
-
           {/* LEFT CONTENT */}
           <div className="lg:col-span-8">
-
             {/* Heading */}
             <div className="flex items-start justify-between gap-10 mb-7">
-
               <div>
-
                 <span className="inline-block text-[#F58220] font-semibold uppercase tracking-[3px] mb-3">
                   Featured Products
                 </span>
 
                 <h2 className="text-4xl  font-extrabold leading-tight text-black max-w-3xl">
-
-                  Engineered For
-
-                  <span className="text-[#00c3fd]">
-                    {" "}Industrial Excellence
-                  </span>
-
+                  Reliable Industrial Motor Solutions
+                  <span className="text-[#00c3fd]"> Industrial Excellence</span>
                 </h2>
 
                 <p className="mt-4 text-gray-600 text-lg leading-8 max-w-4xl">
-                  Discover our premium range of industrial processing machines
-                  designed with precision engineering, high durability, and
-                  unmatched performance for every manufacturing industry.
+                 As a trusted <strong> Electric Motor Manufacturer, AD Motorincs</strong> offer high-performance electric motors engineered for reliability, energy efficiency, durability, and consistent operation across a wide range of industrial applications.
                 </p>
-
               </div>
 
               {/* Slider Arrows */}
 
               <div className="hidden md:flex gap-3 mt-4">
-
                 <button className="products-prev h-12 w-12 rounded-full bg-white shadow-lg hover:bg-[#ff5a14] hover:text-white transition flex items-center justify-center">
-
                   <ChevronLeft size={22} />
-
                 </button>
 
                 <button className="products-next h-12 w-12 rounded-full bg-white shadow-lg hover:bg-[#ff5a14] hover:text-white transition flex items-center justify-center">
-
                   <ChevronRight size={22} />
-
                 </button>
-
               </div>
-
             </div>
 
             {/* Swiper */}
@@ -137,19 +116,14 @@ export default function FeaturedProductsSection() {
                 },
               }}
             >
-
               {products.map((product) => (
-
                 <SwiperSlide key={product.id} className="h-auto">
-
                   {/* Product Card Starts Here */}
 
-                                    <div className="group bg-white  overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 h-full flex flex-col">
-
+                  <div className="group bg-white  overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 h-full flex flex-col">
                     {/* Product Image */}
 
                     <div className="relative overflow-hidden">
-
                       <Image
                         src={product.image}
                         alt={product.title}
@@ -161,13 +135,11 @@ export default function FeaturedProductsSection() {
                       <span className="absolute top-5 left-5 bg-[#F58220] text-white text-xs font-semibold uppercase tracking-wider px-4 py-2 rounded-full">
                         {product.category}
                       </span>
-
                     </div>
 
                     {/* Content */}
 
                     <div className="flex flex-col flex-1 p-5">
-
                       <h3 className="text-3xl font-bold text-black">
                         {product.title}
                       </h3>
@@ -177,40 +149,23 @@ export default function FeaturedProductsSection() {
                       </p>
 
                       <button className="mt-4 inline-flex items-center gap-2 text-[#004DCB] font-semibold hover:gap-4 transition-all duration-300">
-
                         View Product
-
                         <span>→</span>
-
                       </button>
-
                     </div>
-
                   </div>
-
                 </SwiperSlide>
-
               ))}
-
             </Swiper>
-
           </div>
 
           {/* ================= RIGHT SIDE FORM ================= */}
 
           <div className="lg:col-span-4">
-
             <div className="bg-white rounded-3xl shadow-2xl p-5 sticky top-14">
-
-
               <h3 className="text-3xl font-bold text-black leading-tight mt-3">
-
                 Request A
-
-                <span className="block text-[#00c3fd]">
-                  Free Consultation
-                </span>
-
+                <span className="block text-[#00c3fd]">Free Consultation</span>
               </h3>
 
               <p className="text-gray-600 mt-2 leading-7">
@@ -219,7 +174,6 @@ export default function FeaturedProductsSection() {
               </p>
 
               <form className="mt-4 space-y-5">
-
                 <input
                   type="text"
                   placeholder="Your Name"
@@ -238,7 +192,6 @@ export default function FeaturedProductsSection() {
                   className="w-full h-14 rounded-xl border border-gray-200 px-5 outline-none focus:border-[#ff5a14] transition"
                 />
 
-            
                 <textarea
                   rows={5}
                   placeholder="Tell us your requirement..."
@@ -251,17 +204,11 @@ export default function FeaturedProductsSection() {
                 >
                   Send Inquiry
                 </button>
-
               </form>
-
             </div>
-
           </div>
-
         </div>
-
       </div>
-
     </section>
   );
 }

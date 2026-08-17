@@ -11,17 +11,17 @@ import {
 
 const testimonials = [
   {
-    text: "We have been using their water pumps for over three years. The performance, efficiency, and reliability are outstanding. Their technical support team always responds quickly whenever assistance is required.",
+    text: "AD Motorincs gave us good electric motors that worked perfectly for what we needed in our industry. The motors were good quality and the people at AD Motorincs were very helpful, with technical advice.",
     name: "Rajesh Patel",
     designation: "Industrial Contractor",
   },
   {
-    text: "Excellent quality motors with low power consumption. Installation was smooth and the after-sales service has been exceptional. Highly recommended for industrial applications.",
+    text: "We really liked the quality of the products that AD Motorincs offered. The prices were good too. What really stood out to us was how quickly the AD Motorincs team got back to us. The people very helpful. Made it easy for us to pick the right motor from AD Motorincs.",
     name: "Amit Sharma",
     designation: "Manufacturing Plant",
   },
   {
-    text: "Their pump solutions have significantly improved our water distribution system. The products are durable, efficient, and built for long-term performance.",
+    text: "“AD Motorincs delivered a dependable electric motor solution for our application. The product performed efficiently, and their after-sales support was very helpful.",
     name: "Sunil Verma",
     designation: "Water Treatment Company",
   },
@@ -49,7 +49,7 @@ export default function TestimonialSlider() {
   const current = testimonials[index];
 
   return (
-    <section className="relative overflow-hidden py-8">
+    <section className="relative  overflow-hidden py-8">
 
       {/* Background */}
 
@@ -57,7 +57,7 @@ export default function TestimonialSlider() {
 
       <div className="absolute inset-0 bg-[url('/centrifugal-water-pump-500x500.webp')] opacity-10" />
 
-      <div className="relative max-w-6xl mx-auto px-6">
+      <div className="relative mx-auto w-full max-w-7xl  px-6">
 
         {/* Heading */}
 

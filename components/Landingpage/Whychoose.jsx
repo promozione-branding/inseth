@@ -36,7 +36,7 @@ export default function WhyChooseUs() {
 
   return (
     <section className="relative py-12 bg-gradient-to-b from-orange-50 to-[#f7f9fc] overflow-hidden">
-      <div className="w-full mx-auto px-16">
+      <div className="w-full  max-w-7xl mx-auto px-16">
         <div className="grid lg:grid-cols-2 gap-20 ">
           {/* RIGHT */}
 
@@ -52,19 +52,65 @@ export default function WhyChooseUs() {
               <span className="text-[#00c3fd]"> Solutions</span>
             </h2>
 
-            <p className="mt-2 text-lg text-gray-600 leading-8">
-              We provide high-performance industrial motors, gearboxes, geared
-              motors and power transmission products backed by technical
-              expertise, competitive pricing and dependable after-sales support.
-              We provide high-performance industrial motors, gearboxes, geared
-              motors and power transmission products backed by technical
-              expertise, competitive pricing and dependable after-sales support.
-              We provide high-performance industrial motors, gearboxes, geared
-              motors and power transmission products backed by technical
-              expertise, competitive pricing and dependable after-sales support.
-              We provide high-performance industrial motors, gearboxes, geared
-              motors and power transmission products backed by technical
-            </p>
+            <div className="mt-4">
+              <ul className="space-y-3 text-lg text-gray-600">
+                <li className="flex items-start gap-3">
+                  <span className="mt-2 w-2 h-2 rounded-full bg-[#e57f29] shrink-0" />
+                  <span>
+                    <strong className="text-gray-800">
+                      Quality-Focused Manufacturing
+                    </strong>{" "}
+                    – Electric motors designed for reliable industrial
+                    performance.
+                  </span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="mt-2 w-2 h-2 rounded-full bg-[#e57f29] shrink-0" />
+                  <span>
+                    <strong className="text-gray-800">High Performance</strong>{" "}
+                    – Efficient motor solutions for demanding applications.
+                  </span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="mt-2 w-2 h-2 rounded-full bg-[#e57f29] shrink-0" />
+                  <span>
+                    <strong className="text-gray-800">Durable Products</strong>{" "}
+                    – Built for long-term and consistent operation.
+                  </span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="mt-2 w-2 h-2 rounded-full bg-[#e57f29] shrink-0" />
+                  <span>
+                    <strong className="text-gray-800">
+                      Technical Expertise
+                    </strong>{" "}
+                    – Assistance in selecting the right motor according to
+                    application requirements.
+                  </span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="mt-2 w-2 h-2 rounded-full bg-[#e57f29] shrink-0" />
+                  <span>
+                    <strong className="text-gray-800">
+                      Competitive Pricing
+                    </strong>{" "}
+                    – Cost-effective solutions without compromising on quality.
+                  </span>
+                </li>
+
+                <li className="flex items-start gap-3">
+                  <span className="mt-2 w-2 h-2 rounded-full bg-[#e57f29] shrink-0" />
+                  <span>
+                    <strong className="text-gray-800">Reliable Support</strong>{" "}
+                    – Responsive customer service before and after purchase.
+                  </span>
+                </li>
+              </ul>
+            </div>
 
             {/* Features */}
 
@@ -98,12 +144,12 @@ export default function WhyChooseUs() {
 
             <div className="grid sm:grid-cols-2 gap-4 mt-7">
               {[
-                "100% Genuine Products",
-                "Competitive Pricing",
-                "Pan India Supply",
-                "Quick Response",
-                "Expert Consultation",
-                "After Sales Support",
+                "High-Quality Electric Motors       ",
+                "Competitive & Transparent Pricing",
+                " Pan India Delivery",
+                "Fast Customer Response",
+                "Technical Expertise & Consultation",
+                "Reliable After-Sales Support",
               ].map((item) => (
                 <div key={item} className="flex items-center gap-3">
                   <FiCheckCircle className="text-[#00c3fd] text-xl" />
