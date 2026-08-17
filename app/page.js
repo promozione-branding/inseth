@@ -23,6 +23,7 @@ export default function Home() {
       {/* <Popup></Popup> */}
       <Hero />
       <Countup />
+      <Countup />
 
       <Formsection></Formsection>
       <ProductSection />
