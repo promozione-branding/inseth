@@ -3,7 +3,6 @@ import { defineConfig } from "sanity";
 import { structureTool } from "sanity/structure";
 import { visionTool } from "@sanity/vision";
 
-
 const blog = {
   name: "blog",
   title: "Blog",
@@ -14,7 +13,6 @@ const blog = {
     { name: "date", title: "Publish Date", type: "datetime" },
     { name: "excerpt", title: "Excerpt", type: "text" },
 
- 
     {
       name: "image",
       title: "Main Image",
@@ -30,20 +28,18 @@ const blog = {
           type: "block",
           marks: {
             annotations: [
-
-
- {
-            name: "link",
-            title: "Link",
-            type: "object",
-            fields: [
               {
-                name: "href",
-                title: "URL",
-                type: "url",
+                name: "link",
+                title: "Link",
+                type: "object",
+                fields: [
+                  {
+                    name: "href",
+                    title: "URL",
+                    type: "url",
+                  },
+                ],
               },
-            ],
-          },
 
               {
                 name: "color",
@@ -79,10 +75,9 @@ const blog = {
   ],
 };
 
-
 export default defineConfig({
-  name: "sangam-studio",
-  title: "sangam Studio",
+  name: "ADMotornics-studio",
+  title: "ADMotornics Studio",
   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
   dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || "production",
   apiVersion: "2024-06-01",
