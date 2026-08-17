@@ -43,10 +43,10 @@ export default function Navbar() {
       </div>
 
       <header className="sticky top-0 px-2 pb-2 z-50 py-1 bg-white/30 backdrop-blur-2xl">
-        <nav className="mx-auto mt-1   flex h-22 w-full items-center justify-between rounded-2xl border border-slate-200/70 bg-white/90 px-8 ">
+        <nav className="mx-auto mt-1 py-2  flex h-25 w-full items-center justify-between rounded-2xl border border-slate-200/70 bg-white/90 px-8 ">
           {/* Logo */}
 
-          <Link href="/" className="flex items-center gap-4 ">
+          <Link href="/" className="flex items-center justify-center ">
             <Image
               width={100}
               height={100}
@@ -63,7 +63,7 @@ export default function Navbar() {
               Home
             </Link>
 
-            <Link href="/products" className="font-medium hover:text-[#9D090D]">
+            <Link href="/about" className="font-medium hover:text-[#9D090D]">
               About Us
             </Link>
 
@@ -97,9 +97,9 @@ export default function Navbar() {
                       Aluminium Series
                     </h3>
 
-                    <div className="space-y-4">
+                    <div className="space-y-4 h-60 overflow-y-auto">
                       {products
-                        .slice(0, Math.ceil(products.length / 2))
+                        // .slice(0, Math.ceil(products.length / 2))
                         .map((item) => (
                           <Link
                             key={item.id}
@@ -108,13 +108,13 @@ export default function Navbar() {
                           >
                             <Droplets size={18} className="text-[#1BA3F7]" />
 
-                            <span>{item.name}</span>
+                            <span className="text-base">{item.name}</span>
                           </Link>
                         ))}
                     </div>
                   </div>
 
-                  <div>
+                  {/* <div>
                     <h3 className="text-xl font-bold mb-6 text-black">
                       Motors & Accessories
                     </h3>
@@ -132,7 +132,7 @@ export default function Navbar() {
                         </Link>
                       ))}
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -141,7 +141,7 @@ export default function Navbar() {
               Blogs
             </Link>
 
-            <Link href="/blog" className="font-medium hover:text-[#9D090D]">
+            <Link href="/contact" className="font-medium hover:text-[#9D090D]">
               Contact Us
             </Link>
           </div>

@@ -92,6 +92,29 @@ export default function ContactPage() {
         </div>
       </section>
 
+
+       <div className="relative max-w-4xl py-6 mx-auto px-6 text-center">
+
+      
+
+      <h1 className="mt-5 text-3xl md:text-5xl  font-bold text-gray-900 leading-tight">
+        Get in Touch with a{" "}
+        <span className="text-[#F58220]">
+          Trusted Electric Motor Manufacturer
+        </span>
+      </h1>
+
+      <p className="mt-6 text-base md:text-lg text-gray-600  max-w-6xl mx-auto">
+        Looking for reliable electric motors for your business?{" "}
+        <strong className="text-gray-900">AD Motorincs</strong> offers
+        dependable motor solutions for different machines and power systems,
+        including industrial electric motors, AI IE2 motors, brake motors,
+        dual-speed motors, dual-voltage motors, crane motors, and inverter-rated
+        motors.
+      </p>
+    </div>
+
+
       {/* CONTACT INFO */}
       <section className="bg-gray-100 py-10 md:py-16 px-3 md:px-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-9 md:mb-16">
