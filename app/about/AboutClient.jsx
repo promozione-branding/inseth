@@ -70,7 +70,7 @@ export default function AboutPage() {
           </div>
 
          
-            <img src="/prodtest.png" className="w-full h-full" />
+            <img src="/c.webp" className="w-full h-full" />
          
         </div>
       </section>
