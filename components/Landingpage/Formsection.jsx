@@ -53,7 +53,7 @@ export default function FeaturedProductsSection() {
   ];
 
   return (
-    <section className="relative bg-[#f7f8fb] py-14 overflow-hidden">
+    <section className="relative bg-[#f7f8fb] pt-14 overflow-hidden">
       <div className="w-full  max-w-7xl mx-auto px-15">
         <div className="grid lg:grid-cols-12 gap-14 items-start">
           {/* LEFT CONTENT */}
@@ -77,7 +77,7 @@ export default function FeaturedProductsSection() {
 
               {/* Slider Arrows */}
 
-              <div className="hidden md:flex gap-3 mt-4">
+              {/* <div className="hidden md:flex gap-3 mt-4">
                 <button className="products-prev h-12 w-12 rounded-full bg-white shadow-lg hover:bg-[#ff5a14] hover:text-white transition flex items-center justify-center">
                   <ChevronLeft size={22} />
                 </button>
@@ -85,78 +85,12 @@ export default function FeaturedProductsSection() {
                 <button className="products-next h-12 w-12 rounded-full bg-white shadow-lg hover:bg-[#ff5a14] hover:text-white transition flex items-center justify-center">
                   <ChevronRight size={22} />
                 </button>
-              </div>
+              </div> */}
             </div>
 
             {/* Swiper */}
 
-            <Swiper
-              modules={[Navigation, Autoplay]}
-              spaceBetween={30}
-              slidesPerView={1}
-              loop
-              speed={900}
-              autoplay={{
-                delay: 3500,
-                disableOnInteraction: false,
-              }}
-              navigation={{
-                prevEl: ".products-prev",
-                nextEl: ".products-next",
-              }}
-              breakpoints={{
-                640: {
-                  slidesPerView: 1,
-                },
-                768: {
-                  slidesPerView: 2,
-                },
-                1200: {
-                  slidesPerView: 2,
-                },
-              }}
-            >
-              {products.map((product) => (
-                <SwiperSlide key={product.id} className="h-auto">
-                  {/* Product Card Starts Here */}
-
-                  <div className="group bg-white  overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 h-full flex flex-col">
-                    {/* Product Image */}
-
-                    <div className="relative overflow-hidden">
-                      <Image
-                        src={product.image}
-                        alt={product.title}
-                        width={600}
-                        height={420}
-                        className="w-full h-[300px] object-contain transition-transform duration-700 group-hover:scale-110"
-                      />
-
-                      <span className="absolute top-5 left-5 bg-[#F58220] text-white text-xs font-semibold uppercase tracking-wider px-4 py-2 rounded-full">
-                        {product.category}
-                      </span>
-                    </div>
-
-                    {/* Content */}
-
-                    <div className="flex flex-col flex-1 p-5">
-                      <h3 className="text-3xl font-bold text-black">
-                        {product.title}
-                      </h3>
-
-                      <p className="mt-3 text-gray-600  flex-1">
-                        {product.description}
-                      </p>
-
-                      <button className="mt-4 inline-flex items-center gap-2 text-[#004DCB] font-semibold hover:gap-4 transition-all duration-300">
-                        View Product
-                        <span>→</span>
-                      </button>
-                    </div>
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
+           <Image src="/b.webp" height={100} width={100} className="h-140 w-180 object-cover" alt="Featured Product AD Motornics" />
           </div>
 
           {/* ================= RIGHT SIDE FORM ================= */}

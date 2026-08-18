@@ -141,7 +141,7 @@ export const categories = [
 
         image: [
           {
-      src: "/ad-moters.webp",
+            src: "/ad-moters.webp",
             alt: "Centrifugal Pump",
           },
         ],
@@ -270,7 +270,7 @@ export const categories = [
 
         image: [
           {
-      src: "/ad-moters.webp",
+            src: "/ad-moters.webp",
             alt: "MOAL Series IE2 Energy Efficient Electric Motor",
           },
         ],
@@ -408,7 +408,7 @@ export const categories = [
 
         image: [
           {
-      src: "/ad-moters.webp",
+            src: "/ad-moters.webp",
             alt: "AI IE2 Motor B5 Flange Mounted Electric Motor",
           },
         ],
@@ -547,7 +547,7 @@ export const categories = [
 
         image: [
           {
-      src: "/ad-moters.webp",
+            src: "/ad-moters.webp",
             alt: "AI IE2 Motor B14 Face Mounted Electric Motor",
           },
         ],
@@ -678,589 +678,585 @@ export const categories = [
 
         image: [
           {
-      src: "/ad-moters.webp",
+            src: "/ad-moters.webp",
             alt: "AI Brake Motors – Reliable Industrial Brake Motor",
           },
         ],
       },
 
+      {
+        id: "ai-dual-speed-motors",
+        name: "AI Dual Speed Motors",
+
+        metaTitle:
+          "AI Dual Speed Motors | Dual Speed Electric Motor Manufacturer",
+
+        metaDescription:
+          "Explore AI Dual Speed Motors from AD Motorincs, designed for flexible speed operation, reliable performance and efficient use across industrial applications.",
+
+        description: [
+          {
+            type: "h2",
+            text: "Product Overview – AI Dual Speed Motors",
+          },
+          {
+            type: "ul",
+            items: [
+              "AI Dual Speed Motors are designed for applications where machinery requires two selectable operating speeds for flexible and controlled operation.",
+              "Manufactured by AD Motorincs, these dual speed electric motors provide a practical solution for industrial equipment requiring different operating speeds for different stages of a process.",
+              "The dual-speed configuration allows compatible machinery to operate at different speed levels according to production, processing or operating requirements.",
+              "Speed flexibility can help improve process control and allow machines to adapt to different working conditions.",
+              "AI Dual Speed Motors are suitable for a wide range of industrial machinery where dependable performance and speed flexibility are required.",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Product Details",
+          },
+          {
+            type: "ul",
+            items: [
+              "Motor Type – Dual Speed Electric Motor.",
+              "Speed Operation – Two Selectable Operating Speeds.",
+              "Performance – Reliable operation at two defined speed levels.",
+              "Application – Industrial Machinery and Processing Equipment.",
+              "Operation – Flexible speed selection according to application requirements.",
+              "Design – Suitable for integration with compatible industrial machinery.",
+              "Usage – Designed for dependable long-term industrial operation.",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Key Benefits",
+          },
+          {
+            type: "ul",
+            items: [
+              "Two selectable operating speeds.",
+              "Reliable industrial performance.",
+              "Flexible speed control.",
+              "Efficient motor operation.",
+              "Durable construction.",
+              "Consistent performance.",
+              "Suitable for demanding applications.",
+              "Easy integration with compatible machinery.",
+              "Designed for long-term industrial operation.",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Applications",
+          },
+          {
+            type: "ul",
+            items: [
+              "Industrial Fans and Blowers",
+              "Conveyor Systems",
+              "Machine Tools",
+              "Material Handling Equipment",
+              "Pumps and Processing Machinery",
+              "Manufacturing Equipment",
+              "Industrial Ventilation Systems",
+              "Textile Machinery",
+              "Processing Equipment",
+              "General Engineering Applications",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Why Choose AD Motorincs?",
+          },
+          {
+            type: "ul",
+            items: [
+              "AD Motorincs provides reliable industrial electric motor solutions designed for different application requirements.",
+              "Technical guidance is available to help customers select suitable dual speed motors according to power, speed, torque, voltage, duty cycle, mounting arrangement and operating conditions.",
+              "Quality-focused electric motor solutions are designed for dependable dual speed performance.",
+              "Suitable motor options are available for machinery requiring flexible speed operation and controlled performance.",
+              "Competitive pricing for industrial customers, dealers, OEMs and bulk buyers.",
+              "Pan-India supply for industrial motor requirements.",
+              "Prompt customer support and dependable after-sales assistance.",
+            ],
+          },
+        ],
+
+        specs: [
+          {
+            label: "Motor Type",
+            value: "Dual Speed Electric Motor",
+          },
+          {
+            label: "Speed Operation",
+            value: "Two Selectable Operating Speeds",
+          },
+          {
+            label: "Performance",
+            value: "Reliable Dual-Speed Operation",
+          },
+          {
+            label: "Application",
+            value: "Industrial Machinery & Processing Equipment",
+          },
+          {
+            label: "Operation",
+            value: "Flexible Speed Selection",
+          },
+        ],
+
+        image: [
+          {
+            src: "/ad-moters.webp",
+            alt: "AI Dual Speed Motors – Reliable Variable Speed Motor Solutions",
+          },
+        ],
+      },
 
       {
-  id: "ai-dual-speed-motors",
-  name: "AI Dual Speed Motors",
+        id: "ai-dual-voltage-motors",
+        name: "AI Dual Voltage Motors",
 
-  metaTitle:
-    "AI Dual Speed Motors | Dual Speed Electric Motor Manufacturer",
+        metaTitle:
+          "AI Dual Voltage Motors | Dual Voltage Electric Motor Manufacturer",
 
-  metaDescription:
-    "Explore AI Dual Speed Motors from AD Motorincs, designed for flexible speed operation, reliable performance and efficient use across industrial applications.",
+        metaDescription:
+          "Explore AI Dual Voltage Motors from AD Motorincs, designed for flexible voltage operation, reliable performance and efficient use across industrial applications.",
 
-  description: [
-    {
-      type: "h2",
-      text: "Product Overview – AI Dual Speed Motors",
-    },
-    {
-      type: "ul",
-      items: [
-        "AI Dual Speed Motors are designed for applications where machinery requires two selectable operating speeds for flexible and controlled operation.",
-        "Manufactured by AD Motorincs, these dual speed electric motors provide a practical solution for industrial equipment requiring different operating speeds for different stages of a process.",
-        "The dual-speed configuration allows compatible machinery to operate at different speed levels according to production, processing or operating requirements.",
-        "Speed flexibility can help improve process control and allow machines to adapt to different working conditions.",
-        "AI Dual Speed Motors are suitable for a wide range of industrial machinery where dependable performance and speed flexibility are required.",
-      ],
-    },
+        description: [
+          {
+            type: "h2",
+            text: "Product Overview – AI Dual Voltage Motors",
+          },
+          {
+            type: "ul",
+            items: [
+              "AI Dual Voltage Motors are designed for industrial and commercial applications where flexible electrical connection and reliable motor performance are important.",
+              "Manufactured by AD Motorincs, these dual voltage electric motors are suitable for machinery and equipment operating with different specified power supply conditions.",
+              "The dual voltage capability provides flexibility in electrical connection, making these motors suitable for various industrial installations.",
+              "AI Dual Voltage Motors are designed to provide dependable performance while supporting flexible installation across compatible machinery and equipment.",
+              "The motors are suitable for applications where reliable operation, electrical flexibility and long-term industrial performance are required.",
+            ],
+          },
 
-    {
-      type: "h2",
-      text: "Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Motor Type – Dual Speed Electric Motor.",
-        "Speed Operation – Two Selectable Operating Speeds.",
-        "Performance – Reliable operation at two defined speed levels.",
-        "Application – Industrial Machinery and Processing Equipment.",
-        "Operation – Flexible speed selection according to application requirements.",
-        "Design – Suitable for integration with compatible industrial machinery.",
-        "Usage – Designed for dependable long-term industrial operation.",
-      ],
-    },
+          {
+            type: "h2",
+            text: "Product Details",
+          },
+          {
+            type: "ul",
+            items: [
+              "Motor Type – Dual Voltage Electric Motor.",
+              "Voltage Configuration – Dual Voltage Operating Capability.",
+              "Performance – Consistent motor performance across specified voltage ratings.",
+              "Electrical Connection – Flexible connection according to the manufacturer's specified ratings and configuration.",
+              "Application – Industrial and Commercial Machinery.",
+              "Installation – Suitable for compatible electrical and mechanical systems.",
+              "Operation – Designed for dependable long-term industrial operation.",
+            ],
+          },
 
-    {
-      type: "h2",
-      text: "Key Benefits",
-    },
-    {
-      type: "ul",
-      items: [
-        "Two selectable operating speeds.",
-        "Reliable industrial performance.",
-        "Flexible speed control.",
-        "Efficient motor operation.",
-        "Durable construction.",
-        "Consistent performance.",
-        "Suitable for demanding applications.",
-        "Easy integration with compatible machinery.",
-        "Designed for long-term industrial operation.",
-      ],
-    },
+          {
+            type: "h2",
+            text: "Key Benefits",
+          },
+          {
+            type: "ul",
+            items: [
+              "Dual voltage operating capability.",
+              "Reliable industrial performance.",
+              "Efficient motor operation.",
+              "Durable construction.",
+              "Flexible electrical configuration.",
+              "Consistent performance.",
+              "Suitable for diverse applications.",
+              "Easy integration with compatible machinery.",
+              "Designed for dependable long-term operation.",
+            ],
+          },
 
-    {
-      type: "h2",
-      text: "Applications",
-    },
-    {
-      type: "ul",
-      items: [
-        "Industrial Fans and Blowers",
-        "Conveyor Systems",
-        "Machine Tools",
-        "Material Handling Equipment",
-        "Pumps and Processing Machinery",
-        "Manufacturing Equipment",
-        "Industrial Ventilation Systems",
-        "Textile Machinery",
-        "Processing Equipment",
-        "General Engineering Applications",
-      ],
-    },
+          {
+            type: "h2",
+            text: "Applications",
+          },
+          {
+            type: "ul",
+            items: [
+              "Industrial Machinery",
+              "Manufacturing Equipment",
+              "Conveyor Systems",
+              "Pumps",
+              "Fans and Blowers",
+              "Material Handling Equipment",
+              "Processing Machinery",
+              "Packaging Equipment",
+              "Workshop Machinery",
+              "General Engineering Applications",
+            ],
+          },
 
-    {
-      type: "h2",
-      text: "Why Choose AD Motorincs?",
-    },
-    {
-      type: "ul",
-      items: [
-        "AD Motorincs provides reliable industrial electric motor solutions designed for different application requirements.",
-        "Technical guidance is available to help customers select suitable dual speed motors according to power, speed, torque, voltage, duty cycle, mounting arrangement and operating conditions.",
-        "Quality-focused electric motor solutions are designed for dependable dual speed performance.",
-        "Suitable motor options are available for machinery requiring flexible speed operation and controlled performance.",
-        "Competitive pricing for industrial customers, dealers, OEMs and bulk buyers.",
-        "Pan-India supply for industrial motor requirements.",
-        "Prompt customer support and dependable after-sales assistance.",
-      ],
-    },
+          {
+            type: "h2",
+            text: "Why Choose AD Motorincs?",
+          },
+          {
+            type: "ul",
+            items: [
+              "AD Motorincs provides reliable electric motor solutions for a wide range of industrial and commercial applications.",
+              "Technical guidance is available to help customers select dual voltage motors according to power, voltage, speed, torque, mounting configuration, duty cycle and operating conditions.",
+              "Quality-focused motor solutions are designed to provide dependable performance and flexible electrical configuration.",
+              "Suitable dual voltage motor options are available for machinery operating under different specified power supply conditions.",
+              "Competitive pricing for industrial customers, dealers, OEMs and bulk buyers.",
+              "Pan-India supply for industrial motor requirements.",
+              "Prompt customer response and dependable after-sales support.",
+            ],
+          },
 
-    
-  ],
+          {
+            type: "h2",
+            text: "Choose the Right Dual Voltage Electric Motor",
+          },
+          {
+            type: "ul",
+            items: [
+              "Selecting the right dual voltage motor requires consideration of voltage, power, operating speed, torque, load, duty cycle, mounting configuration and application requirements.",
+              "Proper voltage selection and electrical connection should always follow the manufacturer's specified motor ratings and connection configuration.",
+              "If you are looking for AI Dual Voltage Motors, provide your motor specifications and application details to AD Motorincs for suitable motor selection.",
+              "Contact AD Motorincs for reliable AI Dual Voltage Motors designed for flexible and dependable industrial operation.",
+            ],
+          },
+        ],
 
-  specs: [
-    {
-      label: "Motor Type",
-      value: "Dual Speed Electric Motor",
-    },
-    {
-      label: "Speed Operation",
-      value: "Two Selectable Operating Speeds",
-    },
-    {
-      label: "Performance",
-      value: "Reliable Dual-Speed Operation",
-    },
-    {
-      label: "Application",
-      value: "Industrial Machinery & Processing Equipment",
-    },
-    {
-      label: "Operation",
-      value: "Flexible Speed Selection",
-    },
-  ],
+        specs: [
+          {
+            label: "Motor Type",
+            value: "Dual Voltage Electric Motor",
+          },
+          {
+            label: "Voltage Configuration",
+            value: "Dual Voltage Operating Capability",
+          },
+          {
+            label: "Performance",
+            value: "Reliable Dual Voltage Operation",
+          },
+          {
+            label: "Electrical Connection",
+            value: "Flexible Connection as per Specified Ratings",
+          },
+          {
+            label: "Application",
+            value: "Industrial & Commercial Machinery",
+          },
+          {
+            label: "Operation",
+            value: "Dependable Long-Term Industrial Operation",
+          },
+        ],
 
-  image: [
-    {
-      src: "/ad-moters.webp",
-      alt: "AI Dual Speed Motors – Reliable Variable Speed Motor Solutions",
-    },
-  ],
-},
+        image: [
+          {
+            src: "/ad-moters.webp",
+            alt: "AI Dual Voltage Motors – Flexible Industrial Electric Motors",
+          },
+        ],
+      },
 
-{
-  id: "ai-dual-voltage-motors",
-  name: "AI Dual Voltage Motors",
+      {
+        id: "ai-crane-motors",
+        name: "AI Crane Motors",
 
-  metaTitle:
-    "AI Dual Voltage Motors | Dual Voltage Electric Motor Manufacturer",
+        metaTitle:
+          "AI Crane Motors | Industrial Crane Motor Manufacturer – AD Motorincs",
 
-  metaDescription:
-    "Explore AI Dual Voltage Motors from AD Motorincs, designed for flexible voltage operation, reliable performance and efficient use across industrial applications.",
+        metaDescription:
+          "Explore AI Crane Motors from AD Motorincs, designed for reliable performance, high torque, frequent starting and demanding crane and lifting applications.",
 
-  description: [
-    {
-      type: "h2",
-      text: "Product Overview – AI Dual Voltage Motors",
-    },
-    {
-      type: "ul",
-      items: [
-        "AI Dual Voltage Motors are designed for industrial and commercial applications where flexible electrical connection and reliable motor performance are important.",
-        "Manufactured by AD Motorincs, these dual voltage electric motors are suitable for machinery and equipment operating with different specified power supply conditions.",
-        "The dual voltage capability provides flexibility in electrical connection, making these motors suitable for various industrial installations.",
-        "AI Dual Voltage Motors are designed to provide dependable performance while supporting flexible installation across compatible machinery and equipment.",
-        "The motors are suitable for applications where reliable operation, electrical flexibility and long-term industrial performance are required.",
-      ],
-    },
+        description: [
+          {
+            type: "h2",
+            text: "Product Overview – AI Crane Motors",
+          },
+          {
+            type: "ul",
+            items: [
+              "AI Crane Motors are designed for industrial lifting and material handling applications where reliable motor performance and controlled movement are important.",
+              "Manufactured by AD Motorincs, these crane motors are suitable for cranes, hoists and other equipment used for lifting and moving heavy loads.",
+              "Crane motors are designed for applications involving frequent starting, stopping, lifting, lowering and travelling operations.",
+              "Proper crane motor selection is important for achieving reliable equipment operation under different load and working conditions.",
+              "Motor selection can be based on lifting capacity, operating speed, torque requirements, duty cycle and application environment.",
+            ],
+          },
 
-    {
-      type: "h2",
-      text: "Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Motor Type – Dual Voltage Electric Motor.",
-        "Voltage Configuration – Dual Voltage Operating Capability.",
-        "Performance – Consistent motor performance across specified voltage ratings.",
-        "Electrical Connection – Flexible connection according to the manufacturer's specified ratings and configuration.",
-        "Application – Industrial and Commercial Machinery.",
-        "Installation – Suitable for compatible electrical and mechanical systems.",
-        "Operation – Designed for dependable long-term industrial operation.",
-      ],
-    },
+          {
+            type: "h2",
+            text: "Product Details",
+          },
+          {
+            type: "ul",
+            items: [
+              "Motor Type – Industrial Crane Motor.",
+              "Rotor Type – Squirrel Cage Aluminium Die Cast.",
+              "Insulation Class – Class F insulation with temperature rise limited to Class B.",
+              "Enclosure – Totally Enclosed Fan Cooled (TEFC).",
+              "Duty Cycle – S3, S4 & S5.",
+              "Application – Crane, Hoisting and Material Handling Equipment.",
+              "Operation – Designed for frequent starting, stopping, lifting and travelling applications.",
+            ],
+          },
 
-    {
-      type: "h2",
-      text: "Key Benefits",
-    },
-    {
-      type: "ul",
-      items: [
-        "Dual voltage operating capability.",
-        "Reliable industrial performance.",
-        "Efficient motor operation.",
-        "Durable construction.",
-        "Flexible electrical configuration.",
-        "Consistent performance.",
-        "Suitable for diverse applications.",
-        "Easy integration with compatible machinery.",
-        "Designed for dependable long-term operation.",
-      ],
-    },
+          {
+            type: "h2",
+            text: "Key Benefits",
+          },
+          {
+            type: "ul",
+            items: [
+              "Reliable industrial motor performance.",
+              "Suitable for heavy-duty applications.",
+              "Designed for frequent starting and stopping.",
+              "Consistent torque and operation.",
+              "Durable construction.",
+              "Suitable for lifting and material handling systems.",
+              "Reliable performance under demanding conditions.",
+              "Application-specific motor options.",
+              "Designed for long-term industrial operation.",
+            ],
+          },
 
-    {
-      type: "h2",
-      text: "Applications",
-    },
-    {
-      type: "ul",
-      items: [
-        "Industrial Machinery",
-        "Manufacturing Equipment",
-        "Conveyor Systems",
-        "Pumps",
-        "Fans and Blowers",
-        "Material Handling Equipment",
-        "Processing Machinery",
-        "Packaging Equipment",
-        "Workshop Machinery",
-        "General Engineering Applications",
-      ],
-    },
+          {
+            type: "h2",
+            text: "Applications",
+          },
+          {
+            type: "ul",
+            items: [
+              "Overhead Cranes",
+              "EOT Cranes",
+              "Hoist Systems",
+              "Gantry Cranes",
+              "Industrial Lifting Equipment",
+              "Material Handling Machinery",
+              "Crane Travelling Mechanisms",
+              "Lifting and Lowering Systems",
+              "Workshop Cranes",
+              "Heavy Engineering Equipment",
+            ],
+          },
 
-    {
-      type: "h2",
-      text: "Why Choose AD Motorincs?",
-    },
-    {
-      type: "ul",
-      items: [
-        "AD Motorincs provides reliable electric motor solutions for a wide range of industrial and commercial applications.",
-        "Technical guidance is available to help customers select dual voltage motors according to power, voltage, speed, torque, mounting configuration, duty cycle and operating conditions.",
-        "Quality-focused motor solutions are designed to provide dependable performance and flexible electrical configuration.",
-        "Suitable dual voltage motor options are available for machinery operating under different specified power supply conditions.",
-        "Competitive pricing for industrial customers, dealers, OEMs and bulk buyers.",
-        "Pan-India supply for industrial motor requirements.",
-        "Prompt customer response and dependable after-sales support.",
-      ],
-    },
+          {
+            type: "h2",
+            text: "Why Choose AD Motorincs?",
+          },
+          {
+            type: "ul",
+            items: [
+              "AD Motorincs provides reliable industrial electric motor solutions for demanding crane, lifting and material handling applications.",
+              "Application-based technical guidance helps customers select suitable crane motors according to power rating, speed, torque, load capacity, duty cycle, mounting arrangement and operating conditions.",
+              "Quality-focused motor solutions are designed for reliable performance in demanding industrial environments.",
+              "Suitable motor options are available for cranes, hoists, travelling mechanisms and other lifting equipment.",
+              "Competitive pricing for industrial customers, dealers, OEMs and bulk buyers.",
+              "Pan-India supply for industrial motor requirements.",
+              "Prompt customer support and dependable after-sales assistance.",
+            ],
+          },
 
-    {
-      type: "h2",
-      text: "Choose the Right Dual Voltage Electric Motor",
-    },
-    {
-      type: "ul",
-      items: [
-        "Selecting the right dual voltage motor requires consideration of voltage, power, operating speed, torque, load, duty cycle, mounting configuration and application requirements.",
-        "Proper voltage selection and electrical connection should always follow the manufacturer's specified motor ratings and connection configuration.",
-        "If you are looking for AI Dual Voltage Motors, provide your motor specifications and application details to AD Motorincs for suitable motor selection.",
-        "Contact AD Motorincs for reliable AI Dual Voltage Motors designed for flexible and dependable industrial operation.",
-      ],
-    },
-  ],
+          {
+            type: "h2",
+            text: "Choose the Right Crane Motor",
+          },
+          {
+            type: "ul",
+            items: [
+              "Selecting the right crane motor requires consideration of lifting capacity, motor power, operating speed, torque, duty classification, starting requirements, load characteristics and operating environment.",
+              "The duty cycle and frequency of starting and stopping should also be considered when selecting a motor for crane and hoisting applications.",
+              "If you are looking for AI Crane Motors, provide your lifting equipment specifications and application requirements to AD Motorincs for suitable motor selection.",
+              "Contact AD Motorincs for reliable AI Crane Motors designed for demanding crane, hoist and material handling applications.",
+            ],
+          },
+        ],
 
-  specs: [
-    {
-      label: "Motor Type",
-      value: "Dual Voltage Electric Motor",
-    },
-    {
-      label: "Voltage Configuration",
-      value: "Dual Voltage Operating Capability",
-    },
-    {
-      label: "Performance",
-      value: "Reliable Dual Voltage Operation",
-    },
-    {
-      label: "Electrical Connection",
-      value: "Flexible Connection as per Specified Ratings",
-    },
-    {
-      label: "Application",
-      value: "Industrial & Commercial Machinery",
-    },
-    {
-      label: "Operation",
-      value: "Dependable Long-Term Industrial Operation",
-    },
-  ],
+        specs: [
+          {
+            label: "Voltage",
+            value: "415V ±10% or as required",
+          },
+          {
+            label: "Frequency",
+            value: "50Hz ±5% or as required",
+          },
+          {
+            label: "Ambient",
+            value: "45°C (Refer Table 1)",
+          },
+          {
+            label: "Altitude",
+            value: "Up to 1000m above MSL (Refer Table 2)",
+          },
+          {
+            label: "Rotor Type",
+            value: "Squirrel Cage Aluminium Die Cast",
+          },
+          {
+            label: "Enclosure",
+            value: "Totally Enclosed Fan Cooled (TEFC)",
+          },
+          {
+            label: "Insulation Class",
+            value:
+              "Class F insulation with temperature rise limited to Class B",
+          },
+          {
+            label: "Duty Cycle",
+            value: "S3, S4 & S5",
+          },
+        ],
 
-  image: [
-    {
-      src: "/ad-moters.webp",
-      alt: "AI Dual Voltage Motors – Flexible Industrial Electric Motors",
-    },
-  ],
-},
+        image: [
+          {
+            src: "/ad-moters.webp",
+            alt: "AI Crane Motors – Reliable Industrial Crane Motors",
+          },
+        ],
+      },
 
+      {
+        id: "ai-inverter-rated-motors",
+        name: "AI Inverter Rated Motors ",
 
-{
-  id: "ai-crane-motors",
-  name: "AI Crane Motors",
+        metaTitle:
+          "AI Inverter Rated Motors | Inverter Motor Manufacturer – AD Motorincs",
 
-  metaTitle:
-    "AI Crane Motors | Industrial Crane Motor Manufacturer – AD Motorincs",
+        metaDescription:
+          "Explore AI Inverter Rated Motors from AD Motorincs, designed for VFD applications, variable speed operation, efficient motor control and reliable industrial performance.",
 
-  metaDescription:
-    "Explore AI Crane Motors from AD Motorincs, designed for reliable performance, high torque, frequent starting and demanding crane and lifting applications.",
+        description: [
+          {
+            type: "h2",
+            text: "Product Overview – AI Inverter Rated Motors",
+          },
+          {
+            type: "ul",
+            items: [
+              "AI Inverter Rated Motors are designed for applications where motors operate with variable frequency drives (VFDs) or inverters for adjustable speed operation.",
+              "Manufactured by AD Motorincs, these inverter rated motors are designed to provide reliable performance and controlled operation across suitable variable speed ranges.",
+              "The motors are suitable for machinery requiring speed adjustment, controlled acceleration and deceleration, and flexible operating conditions.",
+              "When correctly matched with a compatible inverter or variable frequency drive, these motors can support efficient and controlled operation at different speeds.",
+              "AI Inverter Rated Motors are suitable for industrial applications where variable speed operation and dependable motor performance are required.",
+            ],
+          },
 
-  description: [
-    {
-      type: "h2",
-      text: "Product Overview – AI Crane Motors",
-    },
-    {
-      type: "ul",
-      items: [
-        "AI Crane Motors are designed for industrial lifting and material handling applications where reliable motor performance and controlled movement are important.",
-        "Manufactured by AD Motorincs, these crane motors are suitable for cranes, hoists and other equipment used for lifting and moving heavy loads.",
-        "Crane motors are designed for applications involving frequent starting, stopping, lifting, lowering and travelling operations.",
-        "Proper crane motor selection is important for achieving reliable equipment operation under different load and working conditions.",
-        "Motor selection can be based on lifting capacity, operating speed, torque requirements, duty cycle and application environment.",
-      ],
-    },
+          {
+            type: "h2",
+            text: "Product Details",
+          },
+          {
+            type: "ul",
+            items: [
+              "Motor Type – Inverter Rated Electric Motor.",
+              "Drive Compatibility – Designed for compatible Variable Frequency Drive (VFD) and inverter applications.",
+              "Operation – Suitable for variable speed operation.",
+              "Speed Control – Supports adjustable operating speeds according to application requirements.",
+              "Performance – Reliable motor operation across suitable speed ranges.",
+              "Application – Industrial Machinery and Variable Speed Equipment.",
+              "Usage – Suitable for applications requiring frequent speed adjustments and controlled operation.",
+            ],
+          },
 
-    {
-      type: "h2",
-      text: "Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Motor Type – Industrial Crane Motor.",
-        "Rotor Type – Squirrel Cage Aluminium Die Cast.",
-        "Insulation Class – Class F insulation with temperature rise limited to Class B.",
-        "Enclosure – Totally Enclosed Fan Cooled (TEFC).",
-        "Duty Cycle – S3, S4 & S5.",
-        "Application – Crane, Hoisting and Material Handling Equipment.",
-        "Operation – Designed for frequent starting, stopping, lifting and travelling applications.",
-      ],
-    },
+          {
+            type: "h2",
+            text: "Key Benefits",
+          },
+          {
+            type: "ul",
+            items: [
+              "Designed for inverter and VFD applications.",
+              "Suitable for variable speed operation.",
+              "Reliable industrial performance.",
+              "Efficient motor control.",
+              "Durable construction.",
+              "Consistent operation across suitable speed ranges.",
+              "Suitable for frequent speed adjustments.",
+              "Designed for demanding industrial applications.",
+              "Flexible application options.",
+            ],
+          },
 
-    {
-      type: "h2",
-      text: "Key Benefits",
-    },
-    {
-      type: "ul",
-      items: [
-        "Reliable industrial motor performance.",
-        "Suitable for heavy-duty applications.",
-        "Designed for frequent starting and stopping.",
-        "Consistent torque and operation.",
-        "Durable construction.",
-        "Suitable for lifting and material handling systems.",
-        "Reliable performance under demanding conditions.",
-        "Application-specific motor options.",
-        "Designed for long-term industrial operation.",
-      ],
-    },
+          {
+            type: "h2",
+            text: "Applications",
+          },
+          {
+            type: "ul",
+            items: [
+              "Conveyor Systems",
+              "Pumps",
+              "Fans and Blowers",
+              "Material Handling Equipment",
+              "Industrial Automation",
+              "Processing Machinery",
+              "Packaging Equipment",
+              "Machine Tools",
+              "Manufacturing Machinery",
+              "Textile Machinery",
+            ],
+          },
 
-    {
-      type: "h2",
-      text: "Applications",
-    },
-    {
-      type: "ul",
-      items: [
-        "Overhead Cranes",
-        "EOT Cranes",
-        "Hoist Systems",
-        "Gantry Cranes",
-        "Industrial Lifting Equipment",
-        "Material Handling Machinery",
-        "Crane Travelling Mechanisms",
-        "Lifting and Lowering Systems",
-        "Workshop Cranes",
-        "Heavy Engineering Equipment",
-      ],
-    },
+          {
+            type: "h2",
+            text: "Why Choose AD Motorincs?",
+          },
+          {
+            type: "ul",
+            items: [
+              "AD Motorincs provides reliable industrial electric motor solutions for applications requiring variable speed and controlled operation.",
+              "Technical guidance is available to help customers select suitable inverter rated motors according to power, speed range, torque requirements, voltage, duty cycle, mounting arrangement, VFD compatibility and operating conditions.",
+              "Quality-focused motor solutions are designed for dependable performance in variable speed applications.",
+              "Suitable inverter rated motor options are available for different industrial machinery and equipment.",
+              "Competitive pricing for industrial customers, dealers, OEMs and bulk buyers.",
+              "Pan-India supply for industrial motor requirements.",
+              "Prompt customer support and dependable after-sales assistance.",
+            ],
+          },
+        ],
 
-    {
-      type: "h2",
-      text: "Why Choose AD Motorincs?",
-    },
-    {
-      type: "ul",
-      items: [
-        "AD Motorincs provides reliable industrial electric motor solutions for demanding crane, lifting and material handling applications.",
-        "Application-based technical guidance helps customers select suitable crane motors according to power rating, speed, torque, load capacity, duty cycle, mounting arrangement and operating conditions.",
-        "Quality-focused motor solutions are designed for reliable performance in demanding industrial environments.",
-        "Suitable motor options are available for cranes, hoists, travelling mechanisms and other lifting equipment.",
-        "Competitive pricing for industrial customers, dealers, OEMs and bulk buyers.",
-        "Pan-India supply for industrial motor requirements.",
-        "Prompt customer support and dependable after-sales assistance.",
-      ],
-    },
+        specs: [
+          {
+            label: "Motor Type",
+            value: "Inverter Rated Electric Motor",
+          },
+          {
+            label: "Drive Compatibility",
+            value: "Variable Frequency Drive (VFD) / Inverter",
+          },
+          {
+            label: "Operation",
+            value: "Variable Speed Operation",
+          },
+          {
+            label: "Speed Control",
+            value: "Adjustable Speed as per Application Requirements",
+          },
+          {
+            label: "Application",
+            value: "Industrial Machinery & Variable Speed Equipment",
+          },
+          {
+            label: "Usage",
+            value:
+              "Controlled Speed and Frequent Speed Adjustment Applications",
+          },
+        ],
 
-    {
-      type: "h2",
-      text: "Choose the Right Crane Motor",
-    },
-    {
-      type: "ul",
-      items: [
-        "Selecting the right crane motor requires consideration of lifting capacity, motor power, operating speed, torque, duty classification, starting requirements, load characteristics and operating environment.",
-        "The duty cycle and frequency of starting and stopping should also be considered when selecting a motor for crane and hoisting applications.",
-        "If you are looking for AI Crane Motors, provide your lifting equipment specifications and application requirements to AD Motorincs for suitable motor selection.",
-        "Contact AD Motorincs for reliable AI Crane Motors designed for demanding crane, hoist and material handling applications.",
-      ],
-    },
-  ],
-
-  specs: [
-    {
-      label: "Voltage",
-      value: "415V ±10% or as required",
-    },
-    {
-      label: "Frequency",
-      value: "50Hz ±5% or as required",
-    },
-    {
-      label: "Ambient",
-      value: "45°C (Refer Table 1)",
-    },
-    {
-      label: "Altitude",
-      value: "Up to 1000m above MSL (Refer Table 2)",
-    },
-    {
-      label: "Rotor Type",
-      value: "Squirrel Cage Aluminium Die Cast",
-    },
-    {
-      label: "Enclosure",
-      value: "Totally Enclosed Fan Cooled (TEFC)",
-    },
-    {
-      label: "Insulation Class",
-      value: "Class F insulation with temperature rise limited to Class B",
-    },
-    {
-      label: "Duty Cycle",
-      value: "S3, S4 & S5",
-    },
-  ],
-
-  image: [
-    {
-      src: "/ad-moters.webp",
-      alt: "AI Crane Motors – Reliable Industrial Crane Motors",
-    },
-  ],
-},
-
-{
-  id: "ai-inverter-rated-motors",
-  name: "AI Inverter Rated Motors ",
-
-  metaTitle:
-    "AI Inverter Rated Motors | Inverter Motor Manufacturer – AD Motorincs",
-
-  metaDescription:
-    "Explore AI Inverter Rated Motors from AD Motorincs, designed for VFD applications, variable speed operation, efficient motor control and reliable industrial performance.",
-
-  description: [
-    {
-      type: "h2",
-      text: "Product Overview – AI Inverter Rated Motors",
-    },
-    {
-      type: "ul",
-      items: [
-        "AI Inverter Rated Motors are designed for applications where motors operate with variable frequency drives (VFDs) or inverters for adjustable speed operation.",
-        "Manufactured by AD Motorincs, these inverter rated motors are designed to provide reliable performance and controlled operation across suitable variable speed ranges.",
-        "The motors are suitable for machinery requiring speed adjustment, controlled acceleration and deceleration, and flexible operating conditions.",
-        "When correctly matched with a compatible inverter or variable frequency drive, these motors can support efficient and controlled operation at different speeds.",
-        "AI Inverter Rated Motors are suitable for industrial applications where variable speed operation and dependable motor performance are required.",
-      ],
-    },
-
-    {
-      type: "h2",
-      text: "Product Details",
-    },
-    {
-      type: "ul",
-      items: [
-        "Motor Type – Inverter Rated Electric Motor.",
-        "Drive Compatibility – Designed for compatible Variable Frequency Drive (VFD) and inverter applications.",
-        "Operation – Suitable for variable speed operation.",
-        "Speed Control – Supports adjustable operating speeds according to application requirements.",
-        "Performance – Reliable motor operation across suitable speed ranges.",
-        "Application – Industrial Machinery and Variable Speed Equipment.",
-        "Usage – Suitable for applications requiring frequent speed adjustments and controlled operation.",
-      ],
-    },
-
-    {
-      type: "h2",
-      text: "Key Benefits",
-    },
-    {
-      type: "ul",
-      items: [
-        "Designed for inverter and VFD applications.",
-        "Suitable for variable speed operation.",
-        "Reliable industrial performance.",
-        "Efficient motor control.",
-        "Durable construction.",
-        "Consistent operation across suitable speed ranges.",
-        "Suitable for frequent speed adjustments.",
-        "Designed for demanding industrial applications.",
-        "Flexible application options.",
-      ],
-    },
-
-    {
-      type: "h2",
-      text: "Applications",
-    },
-    {
-      type: "ul",
-      items: [
-        "Conveyor Systems",
-        "Pumps",
-        "Fans and Blowers",
-        "Material Handling Equipment",
-        "Industrial Automation",
-        "Processing Machinery",
-        "Packaging Equipment",
-        "Machine Tools",
-        "Manufacturing Machinery",
-        "Textile Machinery",
-      ],
-    },
-
-    {
-      type: "h2",
-      text: "Why Choose AD Motorincs?",
-    },
-    {
-      type: "ul",
-      items: [
-        "AD Motorincs provides reliable industrial electric motor solutions for applications requiring variable speed and controlled operation.",
-        "Technical guidance is available to help customers select suitable inverter rated motors according to power, speed range, torque requirements, voltage, duty cycle, mounting arrangement, VFD compatibility and operating conditions.",
-        "Quality-focused motor solutions are designed for dependable performance in variable speed applications.",
-        "Suitable inverter rated motor options are available for different industrial machinery and equipment.",
-        "Competitive pricing for industrial customers, dealers, OEMs and bulk buyers.",
-        "Pan-India supply for industrial motor requirements.",
-        "Prompt customer support and dependable after-sales assistance.",
-      ],
-    },
-
-    
-  ],
-
-  specs: [
-    {
-      label: "Motor Type",
-      value: "Inverter Rated Electric Motor",
-    },
-    {
-      label: "Drive Compatibility",
-      value: "Variable Frequency Drive (VFD) / Inverter",
-    },
-    {
-      label: "Operation",
-      value: "Variable Speed Operation",
-    },
-    {
-      label: "Speed Control",
-      value: "Adjustable Speed as per Application Requirements",
-    },
-    {
-      label: "Application",
-      value: "Industrial Machinery & Variable Speed Equipment",
-    },
-    {
-      label: "Usage",
-      value: "Controlled Speed and Frequent Speed Adjustment Applications",
-    },
-  ],
-
-  image: [
-    {
-      src: "/ad-moters.webp",
-      alt: "AI Inverter Rated Motors – Reliable Motors for Variable Speed Applications",
-    },
-  ],
-},
+        image: [
+          {
+            src: "/ad-moters.webp",
+            alt: "AI Inverter Rated Motors – Reliable Motors for Variable Speed Applications",
+          },
+        ],
+      },
     ],
   },
 ];

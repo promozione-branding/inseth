@@ -18,7 +18,7 @@ export default function AboutPreview() {
     "Customer Satisfaction",
   ];
 
-  const aboutImages = ["/pro1.png", "/pro3.png", "/heroimg.png"];
+  const aboutImages = ["/a.webp", "/c.webp"];
 
   return (
     <section className="py-15  relative bg-white">

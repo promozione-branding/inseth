@@ -171,7 +171,7 @@ export default function WhyChooseUs() {
 
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <Image
-                src="/test.jpeg"
+                src="/dd.jpeg"
                 alt="Industrial Motors"
                 width={700}
                 height={700}
