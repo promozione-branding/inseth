@@ -4,6 +4,8 @@ import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 import { categories } from "@/Data";
+import { FaPhone } from "react-icons/fa";
+import { BiSolidPhoneCall } from "react-icons/bi";
 // const products = [
 //   {
 //     title: "Worm Gearboxes",
@@ -112,6 +114,47 @@ export default function ProductSection() {
           ))}
         </div>
       </div>
+
+      <section className="px-6 pt-9">
+  <div
+    className="mx-auto max-w-7xl rounded-2xl px-8 py-10 shadow-lg"
+    style={{
+      background:
+        "linear-gradient(196deg, rgba(229, 127, 41, 1) 27%, rgba(0, 195, 253, 1) 100%)",
+    }}
+  >
+    <div className="flex flex-col items-center justify-between gap-6 text-center md:flex-row md:text-left">
+      
+      {/* Text */}
+      <div>
+        <p className="mb-2 text-sm font-semibold uppercase tracking-[2px] text-white/90">
+          Need Expert Assistance?
+        </p>
+
+        <h2 className="text-2xl font-bold text-white md:text-3xl">
+          Looking for the Right Electric Motor?
+        </h2>
+
+        <p className="mt-2 max-w-2xl text-sm leading-6 text-white/90 md:text-base">
+          Talk to our experts today and get the right motor solution for
+          your industrial application.
+        </p>
+      </div>
+
+      {/* Call Button */}
+      <a
+        href="tel:+919999999999"
+        className="inline-flex shrink-0 items-center gap-3 rounded-full bg-white px-7 py-3.5 font-semibold text-[#E57F29] shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+      >
+        <span className="flex p-2  items-center justify-center rounded-full bg-[#E57F29] text-white">
+         <BiSolidPhoneCall size={30}/>
+        </span>
+
+        Call Now
+      </a>
+    </div>
+  </div>
+</section>
     </section>
   );
 }
