@@ -149,10 +149,8 @@ export default async function BlogDetail({ params }) {
     <>
       {/* Hero Section */}
       <section
-        style={{
-          backgroundImage: "url('/bag/bg-other.webp')",
-        }}
-        className="relative h-[50vh] md:h-[90vh] bg-center bg-cover overflow-hidden"
+        style={{ backgroundImage: "url('/bghero.jpg')" }}
+        className="relative h-[50vh] md:h-[60vh] bg-center bg-cover overflow-hidden"
       >
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/40 z-[1]" />
