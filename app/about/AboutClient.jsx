@@ -429,7 +429,7 @@ export default function AboutPage() {
                 <div className="relative h-[calc(100vh-6rem)] max-h-[700px] min-h-[500px] rounded-3xl overflow-hidden">
                   {/* Image */}
                   <img
-                    src="/self-priming-regenerative-pump.png"
+                    src="/a.webp"
                     alt="Industrial electric motor applications"
                     className="absolute inset-0 w-full h-full object-cover"
                   />

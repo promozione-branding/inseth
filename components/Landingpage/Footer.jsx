@@ -12,6 +12,7 @@ import {
   FaInstagram,
   FaLinkedinIn,
   FaYoutube,
+  FaShareAlt,
 } from "react-icons/fa";
 
 export default function Footer() {
@@ -51,7 +52,15 @@ export default function Footer() {
               />
 
               <p className="text-gray-300  text-[15px]">
-             AD Motorincs is a company that people in India trust to make electric motors. They make motors for factories and other places that need strong motors. AD Motorincs also makes motors, gearboxes and other things that help get power from one place to another. The people, at AD Motorincs design their products to work well and last a long time. They want their electric motors to keep working in homes, offices and factories. AD Motorincs electric motors are made to be efficient and work well every time you use them.
+                AD Motorincs is a company that people in India trust to make
+                electric motors. They make motors for factories and other places
+                that need strong motors. AD Motorincs also makes motors,
+                gearboxes and other things that help get power from one place to
+                another. The people, at AD Motorincs design their products to
+                work well and last a long time. They want their electric motors
+                to keep working in homes, offices and factories. AD Motorincs
+                electric motors are made to be efficient and work well every
+                time you use them.
               </p>
 
               <div></div>
@@ -174,71 +183,81 @@ export default function Footer() {
 
           {/* ================= Contact Row ================= */}
 
-          <div className=" border-t border-white/10 mt-4">
-            <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-5">
+          <div className="border-t border-white/10 mt-4 pt-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {/* Phone */}
-
-              <div className="flex items-center gap-5 bg-white/5 rounded-2xl p-3 hover:bg-white/10 transition">
-                <div className="w-16 h-16 rounded-xl  flex items-center justify-center text-white text-2xl">
+              <div className="flex flex-col items-start text-center bg-white/5 rounded-2xl p-5 hover:bg-white/10 transition duration-300">
+                <div className="w-14 h-14 rounded-xl flex items-center justify-center text-white text-2xl mb-4 bg-white/5">
                   <FaPhoneAlt />
                 </div>
 
-                <div>
-                  <h4 className="font-semibold text-xl mb-1">Call Us</h4>
+                <div className="flex items-start flex-col">
+                  <h4 className="font-semibold text-lg sm:text-xl mb-2">
+                    Call Us
+                  </h4>
 
-                  <p className="text-gray-300">+91-9873933882</p>
+                  <p className="text-gray-300 text-start text-sm sm:text-base break-all">
+                    +91-9873933882
+                  </p>
                 </div>
               </div>
 
               {/* Email */}
-
-              <div className="flex items-center gap-5 bg-white/5 rounded-2xl p-3 hover:bg-white/10 transition">
-                <div className="w-16 h-16 shrink-0 rounded-xl flex items-center justify-center text-white text-2xl">
+              <div className="flex flex-col items-start text-center bg-white/5 rounded-2xl p-5 hover:bg-white/10 transition duration-300">
+                <div className="w-14 h-14 rounded-xl flex items-center justify-center text-white text-2xl mb-4 bg-white/5">
                   <FaEnvelope />
                 </div>
 
-                <div className="min-w-0 flex-1">
-                  <h4 className="font-semibold text-xl mb-1">Email Us</h4>
+                <div className="flex items-start flex-col">
+                  <h4 className="font-semibold text-lg sm:text-xl mb-2">
+                    Email Us
+                  </h4>
 
-                  <p className="text-gray-300 break-words">
+                  <p className="text-gray-300 text-start text-sm sm:text-base break-all">
                     jmdautomationsystems@gmail.com
                   </p>
                 </div>
               </div>
 
               {/* Address */}
-
-              <div className="flex items-center gap-5 bg-white/5 rounded-2xl p-3 hover:bg-white/10 transition">
-                <div className="w-16 h-16 rounded-xl  flex items-center justify-center text-white text-2xl">
+              <div className="flex flex-col items-start  text-center bg-white/5 rounded-2xl p-5 hover:bg-white/10 transition duration-300">
+                <div className="w-14 h-14 rounded-xl flex items-center justify-center text-white text-2xl mb-4 bg-white/5 shrink-0">
                   <FaMapMarkerAlt />
                 </div>
 
-                <div>
-                  <h4 className="font-semibold text-xl mb-1">Office Address</h4>
+                <div className="flex items-start flex-col">
+                  <h4 className="font-semibold text-lg sm:text-xl mb-2">
+                    Office Address
+                  </h4>
 
-                  <p className="text-gray-300 leading-6">
-                    Address: M-145, Street No. 9, Behind Inderlok Metro Station
-                    Gate No. 2 Shastri Nagar, Delhi-110052
+                  <p className="text-gray-300 text-start text-sm sm:text-base leading-6">
+                    M-145, Street No. 9, Behind Inderlok Metro Station Gate No.
+                    2, Shastri Nagar, Delhi-110052
                   </p>
                 </div>
               </div>
 
               {/* Social */}
+              <div className="flex flex-col items-start text-center bg-white/5 rounded-2xl p-5 hover:bg-white/10 transition duration-300">
+                <div className="w-14 h-14 rounded-xl flex items-center justify-center text-white text-2xl mb-4 bg-white/5">
+                  <FaShareAlt />
+                </div>
 
-              <div className="bg-white/5 rounded-2xl p-6">
-                <h4 className="text-xl font-semibold mb-5">Follow Us</h4>
+                <h4 className="text-lg sm:text-xl font-semibold mb-4">
+                  Follow Us
+                </h4>
 
-                <div className="flex gap-4">
+                <div className="flex gap-3 justify-center flex-wrap">
                   {[
-                    <FaFacebookF />,
-                    <FaInstagram />,
-                    <FaLinkedinIn />,
-                    <FaYoutube />,
+                    <FaFacebookF key="facebook" />,
+                    <FaInstagram key="instagram" />,
+                    <FaLinkedinIn key="linkedin" />,
+                    <FaYoutube key="youtube" />,
                   ].map((icon, i) => (
                     <a
                       key={i}
                       href="#"
-                      className="w-12 h-12 rounded-full bg-white/10 hover:bg-[#F58220] hover:text-[#062B57] transition-all duration-300 flex items-center justify-center text-lg"
+                      className="w-10 h-10 rounded-full bg-white/10 hover:bg-[#F58220] hover:text-[#062B57] transition-all duration-300 flex items-center justify-center text-sm"
                     >
                       {icon}
                     </a>

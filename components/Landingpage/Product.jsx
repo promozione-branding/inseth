@@ -143,7 +143,7 @@ export default function ProductSection() {
 
       {/* Call Button */}
       <a
-        href="tel:+919873933882a"
+        href="tel:+919873933882"
         className="inline-flex shrink-0 items-center gap-3 rounded-full bg-white px-7 py-3.5 font-semibold text-[#E57F29] shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
       >
         <span className="flex p-2  items-center justify-center rounded-full bg-[#E57F29] text-white">
