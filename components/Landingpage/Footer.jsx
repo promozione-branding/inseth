@@ -1,3 +1,4 @@
+
 "use client";
 
 import React, { useState } from "react";
@@ -19,300 +20,331 @@ export default function Footer() {
   const [openCertificate, setOpenCertificate] = useState(false);
 
   return (
-    <>
-      <footer className="relative overflow-hidden bg-[#062B57] text-white">
-        {/* Background */}
+    <footer className="relative overflow-hidden bg-[#062B57] text-white">
+      {/* Background */}
+      <div
+        className="absolute inset-0 bg-cover bg-center opacity-10"
+        style={{ backgroundImage: "url('/footer-bg.jpg')" }}
+      />
 
-        <div
-          className="absolute inset-0 bg-cover bg-center opacity-10"
-          style={{ backgroundImage: "url('/footer-bg.jpg')" }}
-        />
+      {/* Gradient */}
+      <div className="absolute inset-0 bg-gradient-to-r from-[#062B57] via-[#0A4D8C] to-[#062B57]" />
 
-        {/* Gradient */}
+      {/* Watermark */}
+      <h2 className="absolute inset-0 top-0 hidden select-none items-center justify-center text-[120px] font-black text-white/5 xl:flex">
+        AD MOTORONICS
+      </h2>
 
-        <div className="absolute inset-0 bg-gradient-to-r from-[#062B57] via-[#0A4D8C] to-[#062B57]" />
+      <div className="relative mx-auto w-full px-6 py-10 md:px-10 lg:px-12">
+        {/* Top Grid */}
+        <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-5">
+          {/* Company Information */}
+          <div className="lg:col-span-2">
+            <Image
+              src="/logo.png"
+              alt="AD Motoronics Logo"
+              width={320}
+              height={170}
+              className="mb-6 rounded-sm"
+            />
 
-        {/* Watermark */}
-
-        <h2 className="absolute inset-0  top-0 flex items-center justify-center text-[120px] font-black text-white/5 select-none hidden xl:flex">
-          I.N. SETH SONS
-        </h2>
-
-        <div className="relative w-full mx-auto px-17 py-10">
-          {/* Top Grid */}
-
-          <div className="grid lg:grid-cols-5 md:grid-cols-2 gap-10">
-            <div className="lg:col-span-2">
-              <Image
-                src="/logo.png"
-                alt="Logo"
-                width={320}
-                height={170}
-                className="mb-6  rounded-sm"
-              />
-
-              <p className="text-gray-300  text-[15px]">
-                AD Motoronics is a company that people in India trust to make
-                electric motors. They make motors for factories and other places
-                that need strong motors. AD Motoronics also makes motors,
-                gearboxes and other things that help get power from one place to
-                another. The people, at AD Motoronics design their products to
-                work well and last a long time. They want their electric motors
-                to keep working in homes, offices and factories. AD Motoronics
-                electric motors are made to be efficient and work well every
-                time you use them.
-              </p>
-
-              <div></div>
-            </div>
-
-            <div>
-              <h3 className="text-2xl font-bold mb-8 relative">
-                Quick Links
-                <span className="absolute left-0 -bottom-3 h-1 w-14 bg-[#F58220]" />
-              </h3>
-
-              <ul className="space-y-4 text-gray-300">
-                <li>
-                  <Link href="/" className="hover:text-[#41C4FF] transition">
-                    Home
-                  </Link>
-                </li>
-
-                <li>
-                  <Link
-                    href="/about"
-                    className="hover:text-[#41C4FF] transition"
-                  >
-                    About Us
-                  </Link>
-                </li>
-
-                <li>
-                  <Link
-                    href="/products"
-                    className="hover:text-[#41C4FF] transition"
-                  >
-                    Products
-                  </Link>
-                </li>
-
-                <li>
-                  <Link
-                    href="/industries"
-                    className="hover:text-[#41C4FF] transition"
-                  >
-                    Industries
-                  </Link>
-                </li>
-
-                <li>
-                  <Link
-                    href="/blogs"
-                    className="hover:text-[#41C4FF] transition"
-                  >
-                    Blogs
-                  </Link>
-                </li>
-
-                <li>
-                  <Link
-                    href="/contact"
-                    className="hover:text-[#41C4FF] transition"
-                  >
-                    Contact Us
-                  </Link>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="text-2xl font-bold mb-8 relative">
-                Our Products
-                <span className="absolute left-0 -bottom-3 h-1 w-14 bg-[#F58220]" />
-              </h3>
-
-              <ul className="space-y-4 text-gray-300">
-                <li>
-                  <Link href="#">Water Pumps</Link>
-                </li>
-
-                <li>
-                  <Link href="#">Centrifugal Pumps</Link>
-                </li>
-
-                <li>
-                  <Link href="#">Booster Pumps</Link>
-                </li>
-
-                <li>
-                  <Link href="#">Submersible Pumps</Link>
-                </li>
-
-                <li>
-                  <Link href="#">Electric Motors</Link>
-                </li>
-
-                <li>
-                  <Link href="#">Pump Controllers</Link>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="text-2xl font-bold mb-8 relative">
-                Industries
-                <span className="absolute left-0 -bottom-3 h-1 w-14 bg-[#F58220]" />
-              </h3>
-
-              <ul className="space-y-4 text-gray-300">
-                <li>Residential Water Supply</li>
-
-                <li>Agriculture</li>
-
-                <li>Industrial Plants</li>
-
-                <li>Commercial Buildings</li>
-
-                <li>Fire Fighting Systems</li>
-
-                <li>Water Treatment</li>
-              </ul>
-            </div>
+            <p className="text-[15px] leading-7 text-gray-300">
+              AD Motoronics provides electric motors and power transmission
+              solutions for a range of industrial applications. With a focus on
+              dependable performance, efficiency, and durability, the company
+              serves the needs of businesses looking for reliable motors,
+              gearboxes, and related equipment for their operations.
+            </p>
           </div>
 
-          {/* ================= Contact Row ================= */}
+          {/* Quick Links */}
+          <div>
+            <h3 className="relative mb-8 text-2xl font-bold">
+              Quick Links
+              <span className="absolute -bottom-3 left-0 h-1 w-14 bg-[#F58220]" />
+            </h3>
 
-          <div className="border-t border-white/10 mt-4 pt-6">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-              {/* Phone */}
-              <div className="flex flex-col items-start text-center bg-white/5 rounded-2xl p-5 hover:bg-white/10 transition duration-300">
-                <div className="w-14 h-14 rounded-xl flex items-center justify-center text-white text-2xl mb-4 bg-white/5">
-                  <FaPhoneAlt />
-                </div>
+            <ul className="space-y-4 text-gray-300">
+              <li>
+                <Link href="/" className="transition hover:text-[#41C4FF]">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/about"
+                  className="transition hover:text-[#41C4FF]"
+                >
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/products"
+                  className="transition hover:text-[#41C4FF]"
+                >
+                  Products
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/industries"
+                  className="transition hover:text-[#41C4FF]"
+                >
+                  Industries
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/blogs"
+                  className="transition hover:text-[#41C4FF]"
+                >
+                  Blogs
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/contact"
+                  className="transition hover:text-[#41C4FF]"
+                >
+                  Contact Us
+                </Link>
+              </li>
+            </ul>
+          </div>
 
-                <div className="flex items-start flex-col">
-                  <h4 className="font-semibold text-lg sm:text-xl mb-2">
-                    Call Us
-                  </h4>
+          {/* Products */}
+          <div>
+            <h3 className="relative mb-8 text-2xl font-bold">
+              Our Products
+              <span className="absolute -bottom-3 left-0 h-1 w-14 bg-[#F58220]" />
+            </h3>
 
-                  <p className="text-gray-300 text-start text-sm sm:text-base break-all">
-                    +91-9873933882
-                  </p>
-                </div>
+            <ul className="space-y-4 text-gray-300">
+              <li>
+                <Link href="/products" className="transition hover:text-[#41C4FF]">
+                  Water Pumps
+                </Link>
+              </li>
+              <li>
+                <Link href="/products" className="transition hover:text-[#41C4FF]">
+                  Centrifugal Pumps
+                </Link>
+              </li>
+              <li>
+                <Link href="/products" className="transition hover:text-[#41C4FF]">
+                  Booster Pumps
+                </Link>
+              </li>
+              <li>
+                <Link href="/products" className="transition hover:text-[#41C4FF]">
+                  Submersible Pumps
+                </Link>
+              </li>
+              <li>
+                <Link href="/products" className="transition hover:text-[#41C4FF]">
+                  Electric Motors
+                </Link>
+              </li>
+              <li>
+                <Link href="/products" className="transition hover:text-[#41C4FF]">
+                  Pump Controllers
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Industries */}
+          <div>
+            <h3 className="relative mb-8 text-2xl font-bold">
+              Industries
+              <span className="absolute -bottom-3 left-0 h-1 w-14 bg-[#F58220]" />
+            </h3>
+
+            <ul className="space-y-4 text-gray-300">
+              <li>Residential Water Supply</li>
+              <li>Agriculture</li>
+              <li>Industrial Plants</li>
+              <li>Commercial Buildings</li>
+              <li>Fire Fighting Systems</li>
+              <li>Water Treatment</li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Contact Row */}
+        <div className="mt-8 border-t border-white/10 pt-6">
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {/* Phone */}
+            <div className="flex flex-col items-start rounded-2xl bg-white/5 p-5 transition duration-300 hover:bg-white/10">
+              <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-xl bg-white/5 text-2xl text-white">
+                <FaPhoneAlt />
               </div>
 
-              {/* Email */}
-              <div className="flex flex-col items-start text-center bg-white/5 rounded-2xl p-5 hover:bg-white/10 transition duration-300">
-                <div className="w-14 h-14 rounded-xl flex items-center justify-center text-white text-2xl mb-4 bg-white/5">
-                  <FaEnvelope />
-                </div>
-
-                <div className="flex items-start flex-col">
-                  <h4 className="font-semibold text-lg sm:text-xl mb-2">
-                    Email Us
-                  </h4>
-
-                  <p className="text-gray-300 text-start text-sm sm:text-base break-all">
-                    jmdautomationsystems@gmail.com
-                  </p>
-                </div>
-              </div>
-
-              {/* Address */}
-              <div className="flex flex-col items-start  text-center bg-white/5 rounded-2xl p-5 hover:bg-white/10 transition duration-300">
-                <div className="w-14 h-14 rounded-xl flex items-center justify-center text-white text-2xl mb-4 bg-white/5 shrink-0">
-                  <FaMapMarkerAlt />
-                </div>
-
-                <div className="flex items-start flex-col">
-                  <h4 className="font-semibold text-lg sm:text-xl mb-2">
-                    Office Address
-                  </h4>
-
-                  <p className="text-gray-300 text-start text-sm sm:text-base leading-6">
-                    M-145, Street No. 9, Behind Inderlok Metro Station Gate No.
-                    2, Shastri Nagar, Delhi-110052
-                  </p>
-                </div>
-              </div>
-
-              {/* Social */}
-              <div className="flex flex-col items-start text-center bg-white/5 rounded-2xl p-5 hover:bg-white/10 transition duration-300">
-                <div className="w-14 h-14 rounded-xl flex items-center justify-center text-white text-2xl mb-4 bg-white/5">
-                  <FaShareAlt />
-                </div>
-
-                <h4 className="text-lg sm:text-xl font-semibold mb-4">
-                  Follow Us
+              <div className="flex flex-col items-start">
+                <h4 className="mb-3 text-lg font-semibold sm:text-xl">
+                  Call Us
                 </h4>
 
-                <div className="flex gap-3 justify-center flex-wrap">
-                  {[
-                    <FaFacebookF key="facebook" />,
-                    <FaInstagram key="instagram" />,
-                    <FaLinkedinIn key="linkedin" />,
-                    <FaYoutube key="youtube" />,
-                  ].map((icon, i) => (
-                    <a
-                      key={i}
-                      href="#"
-                      className="w-10 h-10 rounded-full bg-white/10 hover:bg-[#F58220] hover:text-[#062B57] transition-all duration-300 flex items-center justify-center text-sm"
-                    >
-                      {icon}
-                    </a>
-                  ))}
+                <div className="flex flex-col gap-2 text-sm text-gray-300 sm:text-base">
+                  <a
+                    href="tel:+919873933882"
+                    className="transition hover:text-[#41C4FF]"
+                  >
+                    +91 9873933882
+                  </a>
+
+                  <a
+                    href="tel:+919953738992"
+                    className="transition hover:text-[#41C4FF]"
+                  >
+                    +91 9953738992
+                  </a>
+
+                  <a
+                    href="tel:+919810013496"
+                    className="transition hover:text-[#41C4FF]"
+                  >
+                    +91 9810013496
+                  </a>
                 </div>
               </div>
             </div>
-          </div>
 
-          {/* Certificate Modal */}
+            {/* Email */}
+            <div className="flex flex-col items-start rounded-2xl bg-white/5 p-5 transition duration-300 hover:bg-white/10">
+              <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-xl bg-white/5 text-2xl text-white">
+                <FaEnvelope />
+              </div>
 
-          {openCertificate && (
-            <div className="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center z-[999]">
-              <button
-                onClick={() => setOpenCertificate(false)}
-                className="absolute top-8 right-8 text-4xl"
-              >
-                ×
-              </button>
+              <div className="flex flex-col items-start">
+                <h4 className="mb-3 text-lg font-semibold sm:text-xl">
+                  Email Us
+                </h4>
 
-              <Image
-                src="/certificate.png"
-                alt="Certificate"
-                width={700}
-                height={900}
-                className="rounded-2xl max-h-[90vh] w-auto"
-              />
-            </div>
-          )}
-        </div>
-
-        {/* =============================== */}
-        {/* Bottom Copyright */}
-        {/* =============================== */}
-
-        <div className="relative border-t border-white/10 bg-[#041E3E]">
-          <div className="max-w-7xl mx-auto px-6 py-6">
-            <div className="flex flex-col lg:flex-row items-center justify-between gap-5">
-              <p className="text-gray-300 text-center lg:text-left">
-                © {new Date().getFullYear()} Copyright © 2026 I.N. Seth Sons.
-                All Right Reserved.
-              </p>
-
-              <div className="flex flex-wrap items-center justify-center gap-6 text-gray-300">
-                <Link
-                  href="/privacy-policy"
-                  className="hover:text-[#41C4FF] transition"
+                <a
+                  href="mailto:admotoronic@gmail.com"
+                  className="break-all text-sm text-gray-300 transition hover:text-[#41C4FF] sm:text-base"
                 >
-                  Website Designed By Inquiry Bazaar Pvt. Ltd. B2B Marketplace
-                </Link>
+                  admotoronic@gmail.com
+                </a>
+              </div>
+            </div>
+
+            {/* Address */}
+            <div className="flex flex-col items-start rounded-2xl bg-white/5 p-5 transition duration-300 hover:bg-white/10">
+              <div className="mb-4 flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-white/5 text-2xl text-white">
+                <FaMapMarkerAlt />
+              </div>
+
+              <div className="flex flex-col items-start">
+                <h4 className="mb-3 text-lg font-semibold sm:text-xl">
+                  Office Address
+                </h4>
+
+                <p className="text-start text-sm leading-6 text-gray-300 sm:text-base">
+                  A-91, Group Industrial Area,
+                  <br />
+                  Wazirpur Industrial Area,
+                  <br />
+                  Delhi - 110052
+                </p>
+              </div>
+            </div>
+
+            {/* Social Media */}
+            <div className="flex flex-col items-start rounded-2xl bg-white/5 p-5 transition duration-300 hover:bg-white/10">
+              <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-xl bg-white/5 text-2xl text-white">
+                <FaShareAlt />
+              </div>
+
+              <h4 className="mb-4 text-lg font-semibold sm:text-xl">
+                Follow Us
+              </h4>
+
+              <div className="flex flex-wrap justify-start gap-3">
+                {[
+                  {
+                    name: "Facebook",
+                    icon: <FaFacebookF />,
+                    href: "#",
+                  },
+                  {
+                    name: "Instagram",
+                    icon: <FaInstagram />,
+                    href: "#",
+                  },
+                  {
+                    name: "LinkedIn",
+                    icon: <FaLinkedinIn />,
+                    href: "#",
+                  },
+                  {
+                    name: "YouTube",
+                    icon: <FaYoutube />,
+                    href: "#",
+                  },
+                ].map((social) => (
+                  <a
+                    key={social.name}
+                    href={social.href}
+                    aria-label={social.name}
+                    className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-sm transition-all duration-300 hover:bg-[#F58220] hover:text-[#062B57]"
+                  >
+                    {social.icon}
+                  </a>
+                ))}
               </div>
             </div>
           </div>
         </div>
-      </footer>
-    </>
+
+        {/* Certificate Modal */}
+        {openCertificate && (
+          <div
+            className="fixed inset-0 z-[999] flex items-center justify-center bg-black/80 p-4 backdrop-blur-sm"
+            onClick={() => setOpenCertificate(false)}
+          >
+            <button
+              type="button"
+              onClick={() => setOpenCertificate(false)}
+              aria-label="Close certificate"
+              className="absolute right-8 top-8 text-4xl text-white"
+            >
+              &times;
+            </button>
+
+            <Image
+              src="/certificate.png"
+              alt="AD Motoronics Certificate"
+              width={700}
+              height={900}
+              className="max-h-[90vh] w-auto rounded-2xl"
+              onClick={(event) => event.stopPropagation()}
+            />
+          </div>
+        )}
+      </div>
+
+      {/* Bottom Copyright */}
+      <div className="relative border-t border-white/10 bg-[#041E3E]">
+        <div className="mx-auto max-w-7xl px-6 py-6">
+          <div className="flex flex-col items-center justify-between gap-5 lg:flex-row">
+            <p className="text-center text-gray-300 lg:text-left">
+              © {new Date().getFullYear()} AD Motoronics. All Rights Reserved.
+            </p>
+
+            <div className="flex flex-wrap items-center justify-center gap-6 text-gray-300">
+              <Link
+                href="/privacy-policy"
+                className="text-center transition hover:text-[#41C4FF]"
+              >
+                Website Designed By Inquiry Bazaar Pvt. Ltd. <a className="font-bold text-amber-600" href="https://inquirybazaar.com/"> B2B Marketplace </a>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   );
 }
