@@ -26,10 +26,10 @@ export default function Navbar() {
               <span>+91-9873933882</span>
             </div>
 
-            <div className="flex items-center gap-2">
+            <a  href="mailto:admotoronic@gmail.com" className="flex items-center gap-2">
               <Mail className="h-4 w-4 text-white" />
-              <span>jmdautomationsystems@gmail.com</span>
-            </div>
+              <span> admotoronic@gmail.com</span>
+            </a>
           </div>
 
           <div className="flex items-center gap-6">
