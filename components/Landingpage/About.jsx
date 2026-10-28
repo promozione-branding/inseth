@@ -70,7 +70,7 @@ export default function AboutPreview() {
 
           <div>
             <span className="inline-block uppercase tracking-[3px] text-[#F58220] font-semibold text-sm mb-4">
-              About AD Motorincs
+              About AD Motoronics
             </span>
 
             <h2 className="text-5xl  font-black text-black leading-tight">
@@ -79,7 +79,7 @@ export default function AboutPreview() {
             </h2>
 
             <p className="mt-5    text-black leading-8 text-lg">
-              <strong>AD Motorincs</strong> is a{" "}
+              <strong>AD Motoronics</strong> is a{" "}
               <strong> reliable electric motor manufacturer</strong> offering
               high-quality industrial electric motors, gearboxes, and power
               transmission solutions. We provide efficient and durable products

@@ -61,7 +61,7 @@ export default function Hero() {
               </h1>
 
               <p className="mt-8 text-lg  text-white max-w-xl">
-                At AD Motorincs, we deliver dependable, energy-efficient
+                At AD Motoronics, we deliver dependable, energy-efficient
                 electric motors engineered for powerful performance, long
                 service life, and demanding industrial applications.
               </p>
@@ -159,7 +159,7 @@ export default function Hero() {
 
                     <Image
                       src={image}
-                      alt="AD Motorincs Electric Motor"
+                      alt="AD Motoronics Electric Motor"
                       width={820}
                       height={720}
                       priority={index === 0}

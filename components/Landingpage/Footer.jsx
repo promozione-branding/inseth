@@ -52,13 +52,13 @@ export default function Footer() {
               />
 
               <p className="text-gray-300  text-[15px]">
-                AD Motorincs is a company that people in India trust to make
+                AD Motoronics is a company that people in India trust to make
                 electric motors. They make motors for factories and other places
-                that need strong motors. AD Motorincs also makes motors,
+                that need strong motors. AD Motoronics also makes motors,
                 gearboxes and other things that help get power from one place to
-                another. The people, at AD Motorincs design their products to
+                another. The people, at AD Motoronics design their products to
                 work well and last a long time. They want their electric motors
-                to keep working in homes, offices and factories. AD Motorincs
+                to keep working in homes, offices and factories. AD Motoronics
                 electric motors are made to be efficient and work well every
                 time you use them.
               </p>

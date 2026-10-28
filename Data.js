@@ -151,10 +151,10 @@ export const categories = [
         name: "MOAL Series IE2",
 
         metaTitle:
-          " MOAL Series IE2 Electric Motor Manufacturer | AD Motorincs",
+          " MOAL Series IE2 Electric Motor Manufacturer | AD Motoronics",
 
         metaDescription:
-          " Explore MOAL Series IE2 energy-efficient electric motors from AD Motorincs, designed for reliable performance, lower energy consumption and industrial applications.",
+          " Explore MOAL Series IE2 energy-efficient electric motors from AD Motoronics, designed for reliable performance, lower energy consumption and industrial applications.",
 
         description: [
           {
@@ -165,7 +165,7 @@ export const categories = [
             type: "ul",
             items: [
               "The MOAL Series IE2 is designed for applications where consistent performance, efficient energy use and long-term operation are important.",
-              "Manufactured by AD Motorincs, these energy-efficient electric motors are designed to provide reliable performance across a wide range of industrial applications.",
+              "Manufactured by AD Motoronics, these energy-efficient electric motors are designed to provide reliable performance across a wide range of industrial applications.",
               "Electric motors are widely used in factories, pumps, compressors, conveyor systems, processing machinery, material handling systems and other industrial equipment.",
               "Since industrial motors can operate for extended periods, choosing an energy-efficient motor can help improve overall machine efficiency and support better energy management.",
               "The MOAL Series IE2 is suitable for industries looking for dependable motor performance with efficient electrical energy consumption.",
@@ -226,12 +226,12 @@ export const categories = [
 
           {
             type: "h2",
-            text: "Why Choose AD Motorincs?",
+            text: "Why Choose AD Motoronics?",
           },
           {
             type: "ul",
             items: [
-              "AD Motorincs provides reliable electric motor solutions designed for a wide range of industrial applications.",
+              "AD Motoronics provides reliable electric motor solutions designed for a wide range of industrial applications.",
               "Motor selection can be based on required power, operating speed, voltage, load capacity, mounting arrangement and application requirements.",
               "The MOAL Series IE2 is suitable for applications where reliable operation and efficient energy consumption are important.",
               "Designed for dependable industrial performance and long-term operation.",
@@ -283,7 +283,7 @@ export const categories = [
           "AI IE2 Motor B5 Flange Mounted | Electric Motor Manufacturer",
 
         metaDescription:
-          "Explore AI IE2 Motor B5 flange mounted electric motors from AD Motorincs, designed for efficient performance, reliable operation and diverse industrial applications.",
+          "Explore AI IE2 Motor B5 flange mounted electric motors from AD Motoronics, designed for efficient performance, reliable operation and diverse industrial applications.",
 
         description: [
           {
@@ -294,7 +294,7 @@ export const categories = [
             type: "ul",
             items: [
               "The AI IE2 Motor B5 is a flange-mounted electric motor designed for reliable and efficient operation across a wide range of industrial applications.",
-              "Manufactured by AD Motorincs, this IE2 electric motor is designed to provide dependable mechanical power while supporting efficient electrical energy consumption.",
+              "Manufactured by AD Motoronics, this IE2 electric motor is designed to provide dependable mechanical power while supporting efficient electrical energy consumption.",
               "The B5 flange-mounted configuration allows the motor to be directly integrated with compatible machines, gearboxes, pumps and other driven equipment.",
               "Its flange-mounted design is suitable for applications where compact installation, proper alignment and reliable power transmission are important.",
               "The AI IE2 Motor B5 is a suitable option for industrial machinery requiring dependable motor performance and efficient operation.",
@@ -359,12 +359,12 @@ export const categories = [
 
           {
             type: "h2",
-            text: "Why Choose AD Motorincs?",
+            text: "Why Choose AD Motoronics?",
           },
           {
             type: "ul",
             items: [
-              "AD Motorincs provides quality-focused electric motor solutions for a wide range of industrial applications.",
+              "AD Motoronics provides quality-focused electric motor solutions for a wide range of industrial applications.",
               "Application-based technical guidance helps customers select motors according to power, speed, voltage, mounting type, load and operating requirements.",
               "The AI IE2 Motor B5 combines efficient operation with reliable industrial performance.",
               "Suitable motor options are available for different machinery and power transmission requirements.",
@@ -421,7 +421,7 @@ export const categories = [
           "AI IE2 Motor B14 Face Mounted | Electric Motor Manufacturer",
 
         metaDescription:
-          "Explore AI IE2 Motor B14 face mounted electric motors from AD Motorincs, designed for efficient performance, reliable operation and diverse industrial applications.",
+          "Explore AI IE2 Motor B14 face mounted electric motors from AD Motoronics, designed for efficient performance, reliable operation and diverse industrial applications.",
 
         description: [
           {
@@ -432,7 +432,7 @@ export const categories = [
             type: "ul",
             items: [
               "The AI IE2 Motor B14 is an energy-efficient face-mounted electric motor designed for industrial machinery and equipment where a B14 mounting arrangement is required.",
-              "Manufactured by AD Motorincs, the motor is designed to provide reliable performance and efficient operation across a variety of industrial applications.",
+              "Manufactured by AD Motoronics, the motor is designed to provide reliable performance and efficient operation across a variety of industrial applications.",
               "The B14 face-mounted configuration allows the motor to be directly integrated with compatible machines, gearboxes and other driven equipment.",
               "Its compact mounting arrangement makes the AI IE2 Motor B14 suitable for applications where installation space is limited.",
               "The motor is a suitable choice for machinery requiring dependable performance, efficient energy consumption and compact face-mounted installation.",
@@ -497,12 +497,12 @@ export const categories = [
 
           {
             type: "h2",
-            text: "Why Choose AD Motorincs?",
+            text: "Why Choose AD Motoronics?",
           },
           {
             type: "ul",
             items: [
-              "AD Motorincs provides reliable industrial electric motor solutions for different machinery and application requirements.",
+              "AD Motoronics provides reliable industrial electric motor solutions for different machinery and application requirements.",
               "Application-based technical guidance helps customers select motors according to power, speed, voltage, torque, mounting arrangement, duty cycle and operating conditions.",
               "The AI IE2 Motor B14 is suitable for customers looking for a compact face-mounted electric motor with efficient operation.",
               "Quality-focused motor solutions designed for dependable industrial performance.",
@@ -558,10 +558,10 @@ export const categories = [
         name: "AI Brake Motors",
 
         metaTitle:
-          "AI Brake Motors | Industrial Brake Motor Manufacturer – AD Motorincs",
+          "AI Brake Motors | Industrial Brake Motor Manufacturer – AD Motoronics",
 
         metaDescription:
-          "Explore AI Brake Motors from AD Motorincs, designed for reliable braking, controlled stopping, efficient performance and diverse industrial applications.",
+          "Explore AI Brake Motors from AD Motoronics, designed for reliable braking, controlled stopping, efficient performance and diverse industrial applications.",
 
         description: [
           {
@@ -572,7 +572,7 @@ export const categories = [
             type: "ul",
             items: [
               "AI Brake Motors are designed for applications where controlled stopping, dependable braking and consistent motor performance are important.",
-              "Manufactured by AD Motorincs, these industrial brake motors combine electric motor performance with an integrated braking system for controlled machine operation.",
+              "Manufactured by AD Motoronics, these industrial brake motors combine electric motor performance with an integrated braking system for controlled machine operation.",
               "The integrated brake mechanism helps connected machinery stop efficiently when required, making these motors suitable for equipment that requires precise stopping and improved operational control.",
               "AI Brake Motors can be used across material handling systems, conveyors, hoists, machine tools, packaging equipment and various types of industrial machinery.",
               "These motors are suitable for applications that require dependable motor operation along with reliable braking performance.",
@@ -637,12 +637,12 @@ export const categories = [
 
           {
             type: "h2",
-            text: "Why Choose AD Motorincs?",
+            text: "Why Choose AD Motoronics?",
           },
           {
             type: "ul",
             items: [
-              "AD Motorincs provides industrial electric motor solutions for a wide range of machinery and application requirements.",
+              "AD Motoronics provides industrial electric motor solutions for a wide range of machinery and application requirements.",
               "Technical guidance is available to help customers select brake motors according to power, speed, torque, braking requirements, duty cycle, mounting arrangement and operating conditions.",
               "Quality-focused motor solutions are designed to provide reliable brake motor performance for industrial applications.",
               "Suitable brake motor options are available for machinery requiring controlled stopping and dependable operation.",
@@ -692,7 +692,7 @@ export const categories = [
           "AI Dual Speed Motors | Dual Speed Electric Motor Manufacturer",
 
         metaDescription:
-          "Explore AI Dual Speed Motors from AD Motorincs, designed for flexible speed operation, reliable performance and efficient use across industrial applications.",
+          "Explore AI Dual Speed Motors from AD Motoronics, designed for flexible speed operation, reliable performance and efficient use across industrial applications.",
 
         description: [
           {
@@ -703,7 +703,7 @@ export const categories = [
             type: "ul",
             items: [
               "AI Dual Speed Motors are designed for applications where machinery requires two selectable operating speeds for flexible and controlled operation.",
-              "Manufactured by AD Motorincs, these dual speed electric motors provide a practical solution for industrial equipment requiring different operating speeds for different stages of a process.",
+              "Manufactured by AD Motoronics, these dual speed electric motors provide a practical solution for industrial equipment requiring different operating speeds for different stages of a process.",
               "The dual-speed configuration allows compatible machinery to operate at different speed levels according to production, processing or operating requirements.",
               "Speed flexibility can help improve process control and allow machines to adapt to different working conditions.",
               "AI Dual Speed Motors are suitable for a wide range of industrial machinery where dependable performance and speed flexibility are required.",
@@ -768,12 +768,12 @@ export const categories = [
 
           {
             type: "h2",
-            text: "Why Choose AD Motorincs?",
+            text: "Why Choose AD Motoronics?",
           },
           {
             type: "ul",
             items: [
-              "AD Motorincs provides reliable industrial electric motor solutions designed for different application requirements.",
+              "AD Motoronics provides reliable industrial electric motor solutions designed for different application requirements.",
               "Technical guidance is available to help customers select suitable dual speed motors according to power, speed, torque, voltage, duty cycle, mounting arrangement and operating conditions.",
               "Quality-focused electric motor solutions are designed for dependable dual speed performance.",
               "Suitable motor options are available for machinery requiring flexible speed operation and controlled performance.",
@@ -823,7 +823,7 @@ export const categories = [
           "AI Dual Voltage Motors | Dual Voltage Electric Motor Manufacturer",
 
         metaDescription:
-          "Explore AI Dual Voltage Motors from AD Motorincs, designed for flexible voltage operation, reliable performance and efficient use across industrial applications.",
+          "Explore AI Dual Voltage Motors from AD Motoronics, designed for flexible voltage operation, reliable performance and efficient use across industrial applications.",
 
         description: [
           {
@@ -834,7 +834,7 @@ export const categories = [
             type: "ul",
             items: [
               "AI Dual Voltage Motors are designed for industrial and commercial applications where flexible electrical connection and reliable motor performance are important.",
-              "Manufactured by AD Motorincs, these dual voltage electric motors are suitable for machinery and equipment operating with different specified power supply conditions.",
+              "Manufactured by AD Motoronics, these dual voltage electric motors are suitable for machinery and equipment operating with different specified power supply conditions.",
               "The dual voltage capability provides flexibility in electrical connection, making these motors suitable for various industrial installations.",
               "AI Dual Voltage Motors are designed to provide dependable performance while supporting flexible installation across compatible machinery and equipment.",
               "The motors are suitable for applications where reliable operation, electrical flexibility and long-term industrial performance are required.",
@@ -899,12 +899,12 @@ export const categories = [
 
           {
             type: "h2",
-            text: "Why Choose AD Motorincs?",
+            text: "Why Choose AD Motoronics?",
           },
           {
             type: "ul",
             items: [
-              "AD Motorincs provides reliable electric motor solutions for a wide range of industrial and commercial applications.",
+              "AD Motoronics provides reliable electric motor solutions for a wide range of industrial and commercial applications.",
               "Technical guidance is available to help customers select dual voltage motors according to power, voltage, speed, torque, mounting configuration, duty cycle and operating conditions.",
               "Quality-focused motor solutions are designed to provide dependable performance and flexible electrical configuration.",
               "Suitable dual voltage motor options are available for machinery operating under different specified power supply conditions.",
@@ -923,8 +923,8 @@ export const categories = [
             items: [
               "Selecting the right dual voltage motor requires consideration of voltage, power, operating speed, torque, load, duty cycle, mounting configuration and application requirements.",
               "Proper voltage selection and electrical connection should always follow the manufacturer's specified motor ratings and connection configuration.",
-              "If you are looking for AI Dual Voltage Motors, provide your motor specifications and application details to AD Motorincs for suitable motor selection.",
-              "Contact AD Motorincs for reliable AI Dual Voltage Motors designed for flexible and dependable industrial operation.",
+              "If you are looking for AI Dual Voltage Motors, provide your motor specifications and application details to AD Motoronics for suitable motor selection.",
+              "Contact AD Motoronics for reliable AI Dual Voltage Motors designed for flexible and dependable industrial operation.",
             ],
           },
         ],
@@ -969,10 +969,10 @@ export const categories = [
         name: "AI Crane Motors",
 
         metaTitle:
-          "AI Crane Motors | Industrial Crane Motor Manufacturer – AD Motorincs",
+          "AI Crane Motors | Industrial Crane Motor Manufacturer – AD Motoronics",
 
         metaDescription:
-          "Explore AI Crane Motors from AD Motorincs, designed for reliable performance, high torque, frequent starting and demanding crane and lifting applications.",
+          "Explore AI Crane Motors from AD Motoronics, designed for reliable performance, high torque, frequent starting and demanding crane and lifting applications.",
 
         description: [
           {
@@ -983,7 +983,7 @@ export const categories = [
             type: "ul",
             items: [
               "AI Crane Motors are designed for industrial lifting and material handling applications where reliable motor performance and controlled movement are important.",
-              "Manufactured by AD Motorincs, these crane motors are suitable for cranes, hoists and other equipment used for lifting and moving heavy loads.",
+              "Manufactured by AD Motoronics, these crane motors are suitable for cranes, hoists and other equipment used for lifting and moving heavy loads.",
               "Crane motors are designed for applications involving frequent starting, stopping, lifting, lowering and travelling operations.",
               "Proper crane motor selection is important for achieving reliable equipment operation under different load and working conditions.",
               "Motor selection can be based on lifting capacity, operating speed, torque requirements, duty cycle and application environment.",
@@ -1048,12 +1048,12 @@ export const categories = [
 
           {
             type: "h2",
-            text: "Why Choose AD Motorincs?",
+            text: "Why Choose AD Motoronics?",
           },
           {
             type: "ul",
             items: [
-              "AD Motorincs provides reliable industrial electric motor solutions for demanding crane, lifting and material handling applications.",
+              "AD Motoronics provides reliable industrial electric motor solutions for demanding crane, lifting and material handling applications.",
               "Application-based technical guidance helps customers select suitable crane motors according to power rating, speed, torque, load capacity, duty cycle, mounting arrangement and operating conditions.",
               "Quality-focused motor solutions are designed for reliable performance in demanding industrial environments.",
               "Suitable motor options are available for cranes, hoists, travelling mechanisms and other lifting equipment.",
@@ -1072,8 +1072,8 @@ export const categories = [
             items: [
               "Selecting the right crane motor requires consideration of lifting capacity, motor power, operating speed, torque, duty classification, starting requirements, load characteristics and operating environment.",
               "The duty cycle and frequency of starting and stopping should also be considered when selecting a motor for crane and hoisting applications.",
-              "If you are looking for AI Crane Motors, provide your lifting equipment specifications and application requirements to AD Motorincs for suitable motor selection.",
-              "Contact AD Motorincs for reliable AI Crane Motors designed for demanding crane, hoist and material handling applications.",
+              "If you are looking for AI Crane Motors, provide your lifting equipment specifications and application requirements to AD Motoronics for suitable motor selection.",
+              "Contact AD Motoronics for reliable AI Crane Motors designed for demanding crane, hoist and material handling applications.",
             ],
           },
         ],
@@ -1127,10 +1127,10 @@ export const categories = [
         name: "AI Inverter Rated Motors ",
 
         metaTitle:
-          "AI Inverter Rated Motors | Inverter Motor Manufacturer – AD Motorincs",
+          "AI Inverter Rated Motors | Inverter Motor Manufacturer – AD Motoronics",
 
         metaDescription:
-          "Explore AI Inverter Rated Motors from AD Motorincs, designed for VFD applications, variable speed operation, efficient motor control and reliable industrial performance.",
+          "Explore AI Inverter Rated Motors from AD Motoronics, designed for VFD applications, variable speed operation, efficient motor control and reliable industrial performance.",
 
         description: [
           {
@@ -1141,7 +1141,7 @@ export const categories = [
             type: "ul",
             items: [
               "AI Inverter Rated Motors are designed for applications where motors operate with variable frequency drives (VFDs) or inverters for adjustable speed operation.",
-              "Manufactured by AD Motorincs, these inverter rated motors are designed to provide reliable performance and controlled operation across suitable variable speed ranges.",
+              "Manufactured by AD Motoronics, these inverter rated motors are designed to provide reliable performance and controlled operation across suitable variable speed ranges.",
               "The motors are suitable for machinery requiring speed adjustment, controlled acceleration and deceleration, and flexible operating conditions.",
               "When correctly matched with a compatible inverter or variable frequency drive, these motors can support efficient and controlled operation at different speeds.",
               "AI Inverter Rated Motors are suitable for industrial applications where variable speed operation and dependable motor performance are required.",
@@ -1206,12 +1206,12 @@ export const categories = [
 
           {
             type: "h2",
-            text: "Why Choose AD Motorincs?",
+            text: "Why Choose AD Motoronics?",
           },
           {
             type: "ul",
             items: [
-              "AD Motorincs provides reliable industrial electric motor solutions for applications requiring variable speed and controlled operation.",
+              "AD Motoronics provides reliable industrial electric motor solutions for applications requiring variable speed and controlled operation.",
               "Technical guidance is available to help customers select suitable inverter rated motors according to power, speed range, torque requirements, voltage, duty cycle, mounting arrangement, VFD compatibility and operating conditions.",
               "Quality-focused motor solutions are designed for dependable performance in variable speed applications.",
               "Suitable inverter rated motor options are available for different industrial machinery and equipment.",

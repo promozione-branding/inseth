@@ -5,10 +5,10 @@ import { ChevronDown, HelpCircle } from "lucide-react";
 
 const faqs = [
   {
-    q: "What types of electric motors does AD Motorincs manufacture?",
+    q: "What types of electric motors does AD Motoronics manufacture?",
     a: (
       <>
-        AD Motorincs offers a range of{" "}
+        AD Motoronics offers a range of{" "}
         <strong>industrial electric motors</strong> designed for different
         applications, including manufacturing machinery, conveyors, pumps,
         material handling systems, and other industrial equipment.
@@ -27,16 +27,16 @@ const faqs = [
     ),
   },
   {
-    q: "Does AD Motorincs supply electric motors across India?",
+    q: "Does AD Motoronics supply electric motors across India?",
     a: (
       <>
-        Yes, AD Motorincs provides <strong> electric motor solutions across India, </strong> 
+        Yes, AD Motoronics provides <strong> electric motor solutions across India, </strong> 
         serving customers from various industrial sectors and locations.
       </>
     ),
   },
   {
-    q: "Does AD Motorincs provide technical and after-sales support?",
+    q: "Does AD Motoronics provide technical and after-sales support?",
     a: (
       <>
         Yes. We provide <strong> technical consultation and after-sales support </strong> to

@@ -11,17 +11,17 @@ import {
 
 const testimonials = [
   {
-    text: "AD Motorincs gave us good electric motors that worked perfectly for what we needed in our industry. The motors were good quality and the people at AD Motorincs were very helpful, with technical advice.",
+    text: "AD Motoronics gave us good electric motors that worked perfectly for what we needed in our industry. The motors were good quality and the people at AD Motoronics were very helpful, with technical advice.",
     name: "Rajesh Patel",
     designation: "Industrial Contractor",
   },
   {
-    text: "We really liked the quality of the products that AD Motorincs offered. The prices were good too. What really stood out to us was how quickly the AD Motorincs team got back to us. The people very helpful. Made it easy for us to pick the right motor from AD Motorincs.",
+    text: "We really liked the quality of the products that AD Motoronics offered. The prices were good too. What really stood out to us was how quickly the AD Motoronics team got back to us. The people very helpful. Made it easy for us to pick the right motor from AD Motoronics.",
     name: "Amit Sharma",
     designation: "Manufacturing Plant",
   },
   {
-    text: "“AD Motorincs delivered a dependable electric motor solution for our application. The product performed efficiently, and their after-sales support was very helpful.",
+    text: "“AD Motoronics delivered a dependable electric motor solution for our application. The product performed efficiently, and their after-sales support was very helpful.",
     name: "Sunil Verma",
     designation: "Water Treatment Company",
   },

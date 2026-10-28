@@ -74,7 +74,7 @@ export default function IndustriesSection() {
           </h2>
 
           <p className="mt-6 max-w-3xl mx-auto text-gray-600 text-lg ">
-           <strong>AD Motorincs</strong> provides <strong> high-quality electric motors and power transmission solutions</strong> designed for efficient performance, reliable operation, and long service life across diverse industrial applications.
+           <strong>AD Motoronics</strong> provides <strong> high-quality electric motors and power transmission solutions</strong> designed for efficient performance, reliable operation, and long service life across diverse industrial applications.
           </p>
 
         </div>

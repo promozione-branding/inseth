@@ -19,9 +19,9 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Electric Motor Manufacturer in India | AD Motorincs",
+  title: "Electric Motor Manufacturer in India | AD Motoronics",
   description:
-    "AD Motorincs is a trusted electric motor manufacturer in India offering industrial electric motors, AC motors, three phase motor, reliable motor solutions.",
+    "AD Motoronics is a trusted electric motor manufacturer in India offering industrial electric motors, AC motors, three phase motor, reliable motor solutions.",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",

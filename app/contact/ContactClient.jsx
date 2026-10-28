@@ -106,7 +106,7 @@ export default function ContactPage() {
 
       <p className="mt-6 text-base md:text-lg text-gray-600  max-w-6xl mx-auto">
         Looking for reliable electric motors for your business?{" "}
-        <strong className="text-gray-900">AD Motorincs</strong> offers
+        <strong className="text-gray-900">AD Motoronics</strong> offers
         dependable motor solutions for different machines and power systems,
         including industrial electric motors, AI IE2 motors, brake motors,
         dual-speed motors, dual-voltage motors, crane motors, and inverter-rated

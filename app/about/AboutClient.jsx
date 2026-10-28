@@ -18,7 +18,7 @@ export default function AboutPage() {
       >
         <div className="px-5 absolute inset-0 text-center flex items-center justify-center ">
           <h2 className=" text-white p-2 text-2xl md:text-6xl font-bold z-10">
-            About AD Motorincs
+            About AD Motoronics
           </h2>
         </div>
 
@@ -42,7 +42,7 @@ export default function AboutPage() {
             <div className="text-justify space-y-3 text-base">
              
                 <p>
-                  AD Motorincs is a trusted electric motor manufacturer
+                  AD Motoronics is a trusted electric motor manufacturer
                   dedicated to providing reliable, efficient, and
                   high-performance motor solutions for diverse industrial
                   applications. We focus on delivering quality Electric Motors
@@ -182,7 +182,7 @@ export default function AboutPage() {
                   <div className="space-y-5 text-gray-300 leading-7 text-base md:text-lg">
                       <p>
                         Our goal is to make{" "}
-                        <strong className="text-white">AD Motorincs</strong> a
+                        <strong className="text-white">AD Motoronics</strong> a
                         recognized{" "}
                         <strong className="text-orange-400">
                           Electric Motor Manufacturer in India
@@ -192,7 +192,7 @@ export default function AboutPage() {
                    
 
                       <p>
-                        We want AD Motorincs to be known for producing reliable
+                        We want AD Motoronics to be known for producing reliable
                         products backed by strong engineering skills, consistent
                         quality, and a commitment to customer satisfaction.
                       </p>
@@ -233,7 +233,7 @@ export default function AboutPage() {
               </h2>
 
               <p className="mt-4 text-gray-600 text-base md:text-lg leading-7">
-                At <strong>AD Motorincs</strong>, we provide reliable motor and
+                At <strong>AD Motoronics</strong>, we provide reliable motor and
                 power transmission solutions designed to meet the needs of
                 different industrial applications.
               </p>
@@ -386,7 +386,7 @@ export default function AboutPage() {
                 <strong className="text-gray-900">
                   Need help choosing the right motor?
                 </strong>{" "}
-                Share your application requirements with AD Motorincs and let
+                Share your application requirements with AD Motoronics and let
                 our team help you find a suitable motor solution.
               </p>
             </div>
@@ -443,7 +443,7 @@ export default function AboutPage() {
                   {/* Image Content */}
                   <div className="absolute  inset-x-0 bottom-0 p-8 md:p-10">
                     <span className="inline-block text-xs uppercase tracking-[0.2em] font-semibold text-[#F58220] mb-3">
-                      AD Motorincs
+                      AD Motoronics
                     </span>
 
                     <h3 className="text-3xl md:text-4xl font-bold leading-tight">
@@ -578,7 +578,7 @@ export default function AboutPage() {
               </span>
 
               <h2 className="text-3xl md:text-5xl font-bold text-gray-900">
-                Why Choose <span className="text-[#F58220]">AD Motorincs?</span>
+                Why Choose <span className="text-[#F58220]">AD Motoronics?</span>
               </h2>
 
               <p className="mt-4 text-gray-600 text-base md:text-lg leading-7">
@@ -733,14 +733,14 @@ export default function AboutPage() {
                 <span className="text-white font-medium">
                   AC motors, three-phase motors, or geared motors
                 </span>
-                , AD Motorincs can help you find the right solution for your
+                , AD Motoronics can help you find the right solution for your
                 industrial application.
               </p>
            
 
             {/* Highlight */}
               <p className="text-base md:text-lg font-semibold text-[#F58220] mb-8">
-                AD Motorincs – Reliable Electric Motor Solutions for Industrial
+                AD Motoronics – Reliable Electric Motor Solutions for Industrial
                 Applications.
               </p>
            

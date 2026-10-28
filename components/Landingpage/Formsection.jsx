@@ -71,7 +71,7 @@ export default function FeaturedProductsSection() {
                 </h2>
 
                 <p className="mt-4 text-gray-600 text-lg leading-8 max-w-4xl">
-                 As a trusted <strong> Electric Motor Manufacturer, AD Motorincs</strong> offer high-performance electric motors engineered for reliability, energy efficiency, durability, and consistent operation across a wide range of industrial applications.
+                 As a trusted <strong> Electric Motor Manufacturer, AD Motoronics</strong> offer high-performance electric motors engineered for reliability, energy efficiency, durability, and consistent operation across a wide range of industrial applications.
                 </p>
               </div>
 
