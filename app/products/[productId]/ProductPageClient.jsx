@@ -116,148 +116,155 @@ export default function ProductPage({ params }) {
 
       {/* PRODUCT */}
 
-      <section className="py-20 bg-gradient-to-b from-slate-50 to-white">
 
-        <div className="w-full mx-auto px-16">
+<section className="py-16 lg:py-20 bg-gradient-to-b from-slate-50 to-white">
+  <div className="w-full mx-auto px-5 lg:px-16">
 
-          <div className="grid lg:grid-cols-2 gap-16">
+    <div className="grid lg:grid-cols-2 gap-8 lg:gap-14 items-start">
 
-            {/* IMAGE */}
+      {/* LEFT - STICKY IMAGE */}
+      <div className="lg:sticky lg:top-24 self-start">
 
-            <div>
+        <div className="max-w-[620px] mx-auto rounded-3xl bg-white border border-blue-100 shadow-xl p-4 md:p-6">
 
-              <div className="rounded-3xl bg-white border border-blue-100 shadow-2xl p-8">
+          {/* MAIN IMAGE */}
+          <div
+            className="relative h-[320px] sm:h-[380px] lg:h-[500px] overflow-hidden cursor-zoom-in"
+            onMouseMove={handleMove}
+            onMouseEnter={() => setZoom(true)}
+            onMouseLeave={() => setZoom(false)}
+          >
+            <Image
+              fill
+              src={activeImage.src}
+              alt={activeImage.alt}
+              className="object-contain transition-transform duration-300"
+              style={{
+                transformOrigin: origin,
+                transform: zoom ? "scale(1.45)" : "scale(1)",
+              }}
+            />
+          </div>
 
-                <div
-                  className="relative h-[600px] overflow-hidden cursor-zoom-in"
-                  onMouseMove={handleMove}
-                  onMouseEnter={() => setZoom(true)}
-                  onMouseLeave={() => setZoom(false)}
-                >
-                  <Image
-                    fill
-                    src={activeImage.src}
-                    alt={activeImage.alt}
-                    className="object-contain transition duration-300"
-                    style={{
-                      transformOrigin: origin,
-                      transform: zoom ? "scale(1.45)" : "scale(1)",
-                    }}
-                  />
-                </div>
+          {/* THUMBNAILS */}
+          <div className="flex gap-3 mt-5 overflow-x-auto pb-2">
 
-                <div className="flex gap-4 mt-6">
-
-                  {product.image.map((img, i) => (
-                    <button
-                      key={i}
-                      onClick={() => setActiveImage(img)}
-                      className={`rounded-xl border overflow-hidden ${
-                        activeImage.src === img.src
-                          ? "border-blue-600"
-                          : "border-slate-200"
-                      }`}
-                    >
-                      <Image
-                        src={img.src}
-                        width={90}
-                        height={90}
-                        alt=""
-                        className="object-cover"
-                      />
-                    </button>
-                  ))}
-
-                </div>
-
-              </div>
-
-            </div>
-
-            {/* SPECIFICATIONS */}
-
-
-                        <div className="rounded-3xl overflow-hidden bg-white border border-slate-200 shadow-2xl">
-
-              <div className="bg-gradient-to-r from-[#F58220] to-blue-800 px-8 py-6">
-
-                <h2 className="text-3xl font-bold text-white">
-                  Product Specifications
-                </h2>
-
-                <p className="text-blue-100 mt-2">
-                  Technical details and performance specifications
-                </p>
-
-              </div>
-
-              <div className="divide-y divide-slate-200">
-
-                {product.specs?.map((spec, index) => (
-
-                  <div
-                    key={index}
-                    className="flex justify-between items-center px-8 py-5 hover:bg-blue-50 transition"
-                  >
-
-                    <span className="font-semibold text-slate-800">
-                      {spec.label}
-                    </span>
-
-                    <span className="text-slate-600 font-medium">
-                      {spec.value}
-                    </span>
-
-                  </div>
-
-                ))}
-
-              </div>
-
-              <div className="grid md:grid-cols-3 gap-4 p-8">
-
-                <button
-                  onClick={() => setIsFormOpen(true)}
-                  className="flex justify-center items-center gap-2 rounded-xl bg-[#0A63C9] py-4 font-semibold text-white hover:bg-[#094ea0] transition"
-                >
-                  Request Quote
-                  <ArrowRight size={18} />
-                </button>
-
-                <a
-                  href={`https://wa.me/919876543210?text=Hello, I'm interested in ${product.name}`}
-                  target="_blank"
-                  className="flex justify-center items-center gap-2 rounded-xl bg-[#25D366] py-4 text-white font-semibold hover:opacity-90 transition"
-                >
-                  <Phone size={18} />
-                  WhatsApp
-                </a>
-
-                <a
-                  href="/catalogue.pdf"
-                  download
-                  className="flex justify-center items-center gap-2 rounded-xl border-2 border-[#0A63C9] text-[#0A63C9] py-4 font-semibold hover:bg-[#0A63C9] hover:text-white transition"
-                >
-                  <Download size={18} />
-                  Catalogue
-                </a>
-
-              </div>
-
-            </div>
+            {product.image.map((img, i) => (
+              <button
+                key={i}
+                onClick={() => {
+                  setActiveImage(img);
+                  setZoom(false);
+                }}
+                className={`flex-shrink-0 rounded-xl border-2 overflow-hidden transition ${
+                  activeImage.src === img.src
+                    ? "border-blue-600 shadow-md"
+                    : "border-slate-200 hover:border-blue-400"
+                }`}
+              >
+                <Image
+                  src={img.src}
+                  width={75}
+                  height={75}
+                  alt={img.alt || product.name}
+                  className="w-[65px] h-[65px] md:w-[75px] md:h-[75px] object-cover"
+                />
+              </button>
+            ))}
 
           </div>
 
         </div>
+      </div>
 
-        {isFormOpen && (
-          <Enquiry
-            isOpen={isFormOpen}
-            onClose={() => setIsFormOpen(false)}
-          />
-        )}
+      {/* RIGHT - NATURAL PAGE SCROLL */}
+      <div className="rounded-3xl overflow-hidden bg-white border border-slate-200 shadow-xl">
 
-      </section>
+        {/* HEADER */}
+        <div className="bg-gradient-to-r from-[#F58220] to-blue-800 px-6 md:px-8 py-6">
+
+          <h2 className="text-2xl md:text-3xl font-bold text-white">
+            Product Specifications
+          </h2>
+
+          <p className="text-blue-100 mt-2">
+            Technical details and performance specifications
+          </p>
+
+        </div>
+
+        {/* SPECIFICATIONS - NO INTERNAL SCROLL */}
+        <div className="divide-y divide-slate-200">
+
+          {product.specs?.map((spec, index) => (
+
+            <div
+              key={index}
+              className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2 px-6 md:px-8 py-5 hover:bg-blue-50 transition"
+            >
+
+              <span className="font-semibold text-slate-800">
+                {spec.label}
+              </span>
+
+              <span className="text-slate-600 font-medium sm:text-right sm:max-w-[55%]">
+                {spec.value}
+              </span>
+
+            </div>
+
+          ))}
+
+        </div>
+
+        {/* CTA BUTTONS */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 p-5 md:p-8 border-t border-slate-100">
+
+          <button
+            onClick={() => setIsFormOpen(true)}
+            className="flex justify-center items-center gap-2 rounded-xl bg-[#0A63C9] py-4 font-semibold text-white hover:bg-[#094ea0] transition"
+          >
+            Request Quote
+            <ArrowRight size={18} />
+          </button>
+
+          <a
+            href={`https://wa.me/919876543210?text=${encodeURIComponent(
+              `Hello, I'm interested in ${product.name}`
+            )}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex justify-center items-center gap-2 rounded-xl bg-[#25D366] py-4 text-white font-semibold hover:opacity-90 transition"
+          >
+            <Phone size={18} />
+            WhatsApp
+          </a>
+
+          <a
+            href="/catalogue.pdf"
+            download
+            className="flex justify-center items-center gap-2 rounded-xl border-2 border-[#0A63C9] text-[#0A63C9] py-4 font-semibold hover:bg-[#0A63C9] hover:text-white transition"
+          >
+            <Download size={18} />
+            Catalogue
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  {isFormOpen && (
+    <Enquiry
+      isOpen={isFormOpen}
+      onClose={() => setIsFormOpen(false)}
+    />
+  )}
+
+</section>
+
 
       {/* ================= PRODUCT OVERVIEW ================= */}
 

@@ -1,74 +1,125 @@
+
 import { categories } from "@/Data";
 import Link from "next/link";
 import Image from "next/image";
+import { notFound } from "next/navigation";
 
 export async function generateMetadata({ params }) {
-  const { categoryId } = params;
-  const category = categories.find((c) => c.id === categoryId);
+  const { categoryId } = await params;
+
+  const category = categories.find(
+    (c) => c.id === categoryId
+  );
 
   if (!category) {
     return {
-      title: "Category Not Found ",
+      title: "Category Not Found",
       description: "The requested category does not exist.",
     };
   }
 
   return {
-    title: category.metaTitle,
-    description: category.metaDescription,
+    title: category.metaTitle || category.name,
+    description:
+      category.metaDescription ||
+      `Explore our ${category.name} products.`,
   };
 }
 
-export default function CategoryPage({ params }) {
-  const { categoryId } = params;
-  const category = categories.find((c) => c.id === categoryId);
+export default async function CategoryPage({ params }) {
+  const { categoryId } = await params;
+
+  const category = categories.find(
+    (c) => c.id === categoryId
+  );
 
   if (!category) {
-    return (
-      <h2 className="text-center text-red-500 mt-10">Category not found</h2>
-    );
+    notFound();
   }
 
   return (
-    <>
-      {/* Hero Section */}
+    <main>
+      {/* HERO SECTION */}
       <section
-        style={{ backgroundImage: "url('/bag/bg-other.webp')" }}
-        className="w-full bg-cover bg-center h-[50vh] md:h-[90vh] relative"
+        style={{
+          backgroundImage: "url('/bag/bg-other.webp')",
+        }}
+        className="relative w-full h-[50vh] md:h-[45vh] bg-cover bg-center"
       >
-        <div className="px-5 absolute inset-0 text-center flex items-center justify-center ">
-          <h2 className=" text-emerald-700 bg-white p-3 text-2xl md:text-6xl font-bold z-10">
+        <div className="absolute inset-0 bg-black/30" />
+
+        <div className="relative z-10 flex h-full items-center justify-center px-5">
+          <h1 className="bg-white/95 px-6 py-4 md:px-12 md:py-6 text-3xl md:text-6xl font-bold text-[#f58220] text-center shadow-xl rounded-xl">
             {category.name}
-          </h2>
+          </h1>
         </div>
       </section>
 
-    
+      {/* PRODUCTS SECTION */}
+      <section className="max-w-7xl mx-auto px-5 md:px-8 py-16">
 
-      {/* Products Grid */}
-      <div className="p-10 max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {category.products.map((product) => (
-            <Link
-              key={product.id}
-              href={`/products/${product.id}`}
-              className="border rounded-lg bg-emerald-50 shadow-md p-4 hover:shadow-lg transition"
-            >
-              <div className="w-full  h-75 relative rounded-md overflow-hidden">
-                <Image
-                  src={product.image[0]?.src || "/placeholder.png"}
-                  alt={product.image[0]?.alt || product.name}
-                  title={product.name}
-                  fill
-                  className="object-cover "
-                  unoptimized
-                />
-              </div>
-              <h2 className="mt-3 font-semibold text-xl text-center p-2 bg-yellow-100">{product.name}</h2>
-            </Link>
-          ))}
+        <div className="text-center mb-12">
+          <p className="text-sm uppercase tracking-[3px] font-semibold text-[#f58220] mb-3">
+            Our Collection
+          </p>
+
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900">
+            {category.name}
+          </h2>
+
+          <p className="text-slate-500 mt-3">
+            Explore our range of {category.name} products.
+          </p>
         </div>
-      </div>
-    </>
+
+        {category.products?.length > 0 ? (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
+
+            {category.products.map((product) => (
+              <Link
+                key={product.id}
+                href={`/products/${product.id}`}
+                className="group bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
+              >
+
+                {/* PRODUCT IMAGE */}
+                <div className="relative w-full h-[280px] bg-slate-50 overflow-hidden">
+
+                  <Image
+                    src={product.image?.[0]?.src || "/placeholder.png"}
+                    alt={product.image?.[0]?.alt || product.name}
+                    title={product.name}
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-contain p-5 group-hover:scale-105 transition-transform duration-500"
+                  />
+
+                </div>
+
+                {/* PRODUCT NAME */}
+                <div className="p-5 flex items-center justify-between gap-3">
+
+                  <h3 className="text-lg font-semibold text-slate-800 group-hover:text-[#f58220] transition">
+                    {product.name}
+                  </h3>
+
+                  <span className="w-9 h-9 flex-shrink-0 rounded-full bg-blue-50 text-[#f58220] flex items-center justify-center group-hover:bg-[#00c3fd] group-hover:text-white transition">
+                    →
+                  </span>
+
+                </div>
+
+              </Link>
+            ))}
+
+          </div>
+        ) : (
+          <div className="text-center py-16 text-slate-500">
+            No products available in this category.
+          </div>
+        )}
+
+      </section>
+    </main>
   );
 }
